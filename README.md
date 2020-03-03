@@ -13,9 +13,8 @@ $ cp .env.example .env
 | 名稱 | 說明 |
 | ------ | ------ |
 | NUXT_ENV_API_URL | api連結 |
-| NUXT_ENV_API_WEBSOCKET | websocket連結 (數據) |
-| NUXT_ENV_API_ORDER_WEBSOCKET | websocket連結 (下訂單) |
-| NUXT_ENV_WEB | 新元氣(gennki) or 新黑馬(DarkHorse) 預設為元氣 |
+| NUXT_ENV_DT_URL | DT網址 |
+| NUXT_ENV_HORSE_URL | 黑馬網址 |
 
 
 ## 安裝步驟
@@ -30,4 +29,7 @@ $ npm run dev (or yarn dev)
 # pm2 可掛載
 $ npm run build
 $ npm run start
+
+#靜態部屬
+$ npm run generate
 ```
