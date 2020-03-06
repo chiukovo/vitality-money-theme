@@ -1,5 +1,6 @@
 require('dotenv').config()
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'spa',
