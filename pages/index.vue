@@ -13,11 +13,11 @@ export default {
   components: {
   	Theme: () => {
       if (process.env.NUXT_ENV_TYPE == 'TT2') {
-        return import('@/componentS/TT2.vue')
+        return import('@/components/TT2.vue')
       } else if (process.env.NUXT_ENV_TYPE == 'DT') {
-      	return import('@/componentS/DT.vue')
+      	return import('@/components/DT.vue')
       } else {
-      	return import('@/componentS/Horse.vue')
+      	return import('@/components/Horse.vue')
       }
     }
   },
