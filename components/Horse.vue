@@ -627,3 +627,8 @@ export default {
   },
 }
 </script>
+<style>
+  #__nuxt {
+    display: none
+  }
+</style>

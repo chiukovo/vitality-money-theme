@@ -9,7 +9,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' }
     ],
-    link: [
+    script: [
+      { src: '/tt2/js/jquery.js' }
     ],
   },
   /*

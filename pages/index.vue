@@ -1,11 +1,8 @@
 <template lang='pug'>
-Horse(v-if="type == 'HORSE'")
-TT2(v-else-if="type == 'TT2'")
+Theme
 </template>
 
 <script>
-import Horse from '~/components/Horse'
-import TT2 from '~/components/TT2'
 
 export default {
 	data () {
@@ -14,8 +11,15 @@ export default {
 	  }
 	},
   components: {
-    Horse,
-    TT2,
+  	Theme: () => {
+      if (process.env.NUXT_ENV_TYPE == 'TT2') {
+        return import('@/componentS/TT2.vue')
+      } else if (process.env.NUXT_ENV_TYPE == 'DT') {
+      	return import('@/componentS/DT.vue')
+      } else {
+      	return import('@/componentS/Horse.vue')
+      }
+    }
   },
 	created() {
     this.type = process.env.NUXT_ENV_TYPE
