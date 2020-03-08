@@ -184,30 +184,26 @@
               <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="inner-box">
                   <div class="icon-box"><span class="flaticon-analysis"></span></div>
-                  <h2>Business Analysis</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore. </div>
-                  <div class="read-more"><a href="#">Read More</a></div>
+                  <h2>技術分析軟體</h2>
+                  <div class="text">技術分析軟體的本質就是使用技術指標和分析工具研究金融工具圖表
+                  TT2 提供了一整套的分析方式。
+                  </div>
                 </div>
               </div>
               <!-- Welcome Block One -->
               <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="inner-box" style="background-image: url(/tt2/images/resource/image-1.jpg);">
                   <div class="icon-box"><span class="flaticon-tax"></span></div>
-                  <h2>Save Your Tax</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore. </div>
-                  <div class="read-more"><a href="#">Read More</a></div>
+                  <h2>讓獲利更簡單</h2>
+                  <div class="text">已有數百萬人使用 TT2系統。探索無限交易選擇。我們提供數千種金融工具、免費即時行情和全天候線上支持。</div>
                 </div>
               </div>
               <!-- Welcome Block One -->
               <div class="welcome-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="inner-box">
                   <div class="icon-box"><span class="flaticon-work-1"></span></div>
-                  <h2>Business Analysis</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore. </div>
-                  <div class="read-more"><a href="#">Read More</a></div>
+                  <h2>友好的用戶介面</h2>
+                  <div class="text">使用最新H5技術，不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
                 </div>
               </div>
             </div>
@@ -260,25 +256,28 @@
               <div class="services-content">
                 <div class="sec-title light">
                   <div class="sub-title">Our Services</div>
-                  <h2>What Actually We <br>Do Here.</h2>
+                  <h2>TopTrader 2技術分析</h2>
                 </div>
                 <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                   <div class="icon"><img src="/tt2/images/icons/icon-3.png" alt=""></div>
-                  <h2>Capital Market</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </div>
+                  <h2>技術分析</h2>
+                  <div class="text">指標是最重要的技術分析工具
+設置這種指標可以自動操作，以便檢測全球期貨交易品種價格動態的不同風格形態
+根據這個資訊，交易者可以預測未來的價格動向並及時調整他們的策略。</div>
                 </div>
                 <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                   <div class="icon"><img src="/tt2/images/icons/icon-4.png" alt=""></div>
-                  <h2>Insurance & Planning</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </div>
+                  <h2>即時穩定的報價與最齊全的商品</h2>
+                  <div class="text">為避免報價誤差與延遲TT2平台與國外知名報價廠商合作
+ 透過精密演算法呈現出與國外同步且精準的報價
+無論何時何地，您都可以在TT5網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</div>
                 </div>
                 <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                   <div class="icon"><img src="/tt2/images/icons/icon-5.png" alt=""></div>
-                  <h2>Financial Strategy</h2>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. </div>
+                  <h2>預測您喜歡金融交易品種的價格動向</h2>
+                  <div class="text">技術分析是成功進行全球期貨，交易不可或缺的一部分
+它有助於識別各種交易品種的趨勢，定義支持/阻力位的水準，預測價格動向等等
+換句話說，通過技術分析，您可以“窺視未來”，並通過這個優勢來獲得成功</div>
                 </div>
               </div>
             </div>
@@ -298,9 +297,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-6.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="90">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="88">0</span><span>種</span>
                         </div>
-                        <div class="counter-title">Business Monitoring</div>
+                        <div class="counter-title">技術分析</div>
                       </div>
                     </div>
                   </div>
@@ -311,9 +310,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-7.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="71">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="102">0</span><span>種</span>
                         </div>
-                        <div class="counter-title">Business Growth</div>
+                        <div class="counter-title">分析物件</div>
                       </div>
                     </div>
                   </div>
@@ -324,9 +323,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-8.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="33">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="21">0</span><span>種</span>
                         </div>
-                        <div class="counter-title">Financial Plan</div>
+                        <div class="counter-title">時間週期</div>
                       </div>
                     </div>
                   </div>
@@ -337,9 +336,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-9.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="60">0</span><span>種</span>
                         </div>
-                        <div class="counter-title">Finance Consulting</div>
+                        <div class="counter-title">K線走勢</div>
                       </div>
                     </div>
                   </div>
@@ -350,9 +349,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-10.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="69">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="30">0</span><span>種</span>
                         </div>
-                        <div class="counter-title">Data Analysis</div>
+                        <div class="counter-title">數據分析</div>
                       </div>
                     </div>
                   </div>
@@ -363,9 +362,9 @@
                       <div class="content">
                         <div class="icon"><img src="/tt2/images/icons/icon-11.png" alt=""></div>
                         <div class="count-outer count-box">
-                          <span class="count-text" data-speed="3000" data-stop="10">0</span><span>%</span>
+                          <span class="count-text" data-speed="3000" data-stop="60">0</span><span>秒</span>
                         </div>
-                        <div class="counter-title">business Strategy</div>
+                        <div class="counter-title">歷史資料</div>
                       </div>
                     </div>
                   </div>
@@ -387,144 +386,42 @@
       </section>
 
       <!-- Gallery Section -->
-      <section class="gallery-section">
-        <div class="sortable-masonry">
+      <section class="about-section-two">
+        <div class="auto-container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="image-wrapper">
+                        <div class="image-one">
+                            <img class="lazy-image owl-lazy loaded" src="/tt2/images/resource/image-10.jpg" data-src="/tt2/images/resource/image-10.jpg" alt="" data-was-processed="true">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content-box">
+                        <div class="sec-title">
+                            <div class="sub-title">About Us</div>
+                            <h2>關於TT2</h2>
+                            <div class="text">自從金融市場創建以來，已經開發了許多技術指標，最受歡迎的指標已經被加入TT2 交易平臺
+為方便投資者使用，這些指標被分成幾組：趨勢指標，振盪指標，交易量指標和比爾 威廉姆斯工具
+大部分技術指標都可以非常靈活的調整適應特定角色的工具，投資者可以管理負責指標結果和外觀的分析參數進行詳細設置
+例如：您可以改變移動平均指標的計算週期以及調整顏色，指標線寬度和線型的類型
+總之，TT2 為交易者提供了一套精心設計的工具，進行全面的技術分析
+即使要求最為挑剔的交易者也可以找到其想要的技術指標。您可以從平臺直接獲得先進的工具，完成從簡單到複雜任何水準的技術分析
+如果您有需要特殊功能的指標，您可以更深層次的要求能以合理的價格向專業程式師訂制開發自訂指標。
+</div>
+                        </div>
+                        <div class="author-info">
+                            <div class="wrapper-box">
+                                <h2>Rosalina D. William</h2>
+                                <div class="designation">Founder</div>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+                            </div>
+                            <div class="signature"><img src="/tt2/images/resource/signature.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
 
-          <div class="auto-container">
-            <div class="row m-0 justify-content-md-between align-items-center">
-              <div class="sec-title">
-                <div class="sub-title">Portfolio</div>
-                <h2>Our Works</h2>
-              </div>
-              <!--Filter-->
-              <div class="filters text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <ul class="filter-tabs filter-btns">
-                  <li class="active filter" data-role="button" data-filter=".all"><span>Financial</span></li>
-                  <li class="filter" data-role="button" data-filter=".category-1"><span>Banking</span></li>
-                  <li class="filter" data-role="button" data-filter=".category-2"><span>Insurance </span></li>
-                  <li class="filter" data-role="button" data-filter=".category-3"><span>Family</span></li>
-                  <li class="filter" data-role="button" data-filter=".category-4"><span>Business</span></li>
-                </ul>
-              </div>
             </div>
-          </div>
-          <div class="auto-container">
-            <div class="items-container row">
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-10.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-10.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-4">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-11.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-11.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-12.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-12.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-13.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-13.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-14.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-14.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-15.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-15.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-16.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-16.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- Gallery Block One -->
-              <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="/tt2/images/gallery/gallery-17.jpg" alt="">
-                  </div>
-                  <div class="caption-title">
-                    <h5>Finance</h5>
-                    <h3><a href="#">Miranda Hilix Bar</a></h3>
-                    <div class="view-project"><a data-fancybox="example gallery"
-                        href="/tt2/images/gallery/gallery-17.jpg" class="zoom-btn"><span>+</span></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- End block -->
-            </div>
-          </div>
         </div>
       </section>
 
@@ -560,7 +457,7 @@
                       <div class="text">
                         <p>為避免報價誤差與延遲TT2平台與國外知名報價廠商合作</p>
                         <p>透過精密演算法呈現出與國外同步且精準的報價</p>
-                        <p>無論何時何地，您都可以在TT5網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</p>
+                        <p>無論何時何地，您都可以在TT2網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</p>
                       </div>
                     </div>
                   </div>
