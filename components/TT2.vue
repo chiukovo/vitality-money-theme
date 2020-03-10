@@ -4,7 +4,7 @@
       <!-- Preloader -->
       <div class="loader-wrap">
         <div class="preloader">
-          <div class="preloader-close">Preloader Close</div>
+          <div class="preloader-close">preloadering</div>
         </div>
         <div class="layer layer-one"><span class="overlay"></span></div>
         <div class="layer layer-two"><span class="overlay"></span></div>
@@ -20,12 +20,12 @@
               <div class="top-left">
                 <!--Logo-->
                 <div class="logo-box">
-                  <div class="logo"><a href="index.html"><img src="/tt2/images/logo.png" alt=""></a></div>
+                  <div class="logo"><a href="/"><img src="/tt2/images/logo.png" alt=""></a></div>
                 </div>
               </div>
 
               <div class="top-right">
-                <a href="#" class="theme-btn btn-style-two"><span class="btn-title">登入</span></a>
+                <a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">登入</span></a>
               </div>
             </div>
           </div>
@@ -44,11 +44,11 @@
                 <nav class="main-menu navbar-expand-md navbar-light">
                   <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
-                      <li><a href="#">首頁</a></li>
+                      <li><a href="/">首頁</a></li>
                       <li><a href="#">交易平台</a></li>
                       <li><a href="#">多國語言</a></li>
                       <li><a href="#">意見調查</a></li>
-                      <li><a href="#">註冊</a></li>
+                      <li><a :href="tt2_url">註冊</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -64,7 +64,7 @@
           <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-              <a href="index.html" title=""><img src="/tt2/images/logo.png" alt="" title=""></a>
+              <a href="/" title=""><img src="/tt2/images/logo.png" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -84,7 +84,7 @@
           <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
           <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="/tt2/images/logo.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="/tt2/images/logo.png" alt="" title=""></a></div>
             <div class="menu-outer">
               <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
@@ -110,7 +110,7 @@
         <div class="popup-inner">
           <div class="overlay-layer"></div>
           <div class="search-form">
-            <form method="post" action="index.html">
+            <form method="post" action="/">
               <div class="form-group">
                 <fieldset>
                   <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here"
@@ -146,8 +146,8 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>TT2</h2>
                 <div class="text">下位金融鉅子換你當</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
+                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
                       --</span></a></div>
               </div>
             </div>
@@ -162,8 +162,8 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>TT2</h2>
                 <div class="text">全球期貨大亨強勢登場！</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
+                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
                       --</span></a></div>
               </div>
             </div>
@@ -178,8 +178,8 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>TT2</h2>
                 <div class="text">免費試玩帳號提供中</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
+                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
                       --</span></a></div>
               </div>
             </div>
@@ -589,12 +589,15 @@
         type: 'b',
         dt_url: '',
         horse_url: '',
+        tt2_url: '',
       }
     },
     mounted() {
       this.loading = false
       this.dt_url = process.env.NUXT_ENV_DT_URL
       this.horse_url = process.env.NUXT_ENV_HORSE_URL
+      this.tt2_url = process.env.NUXT_ENV_TT2_URL
+
       //remember data
       const remember = this.$store.state.localStorage.remember
       this.rememberMe = remember.me

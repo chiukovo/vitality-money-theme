@@ -539,11 +539,8 @@
     /* ==========================================================================
        When document is loading, do
        ========================================================================== */
-
-    $(window).on('load', function() {
-        handlePreloader();
-        sortableMasonry();
-        document.getElementById("__nuxt").style = 'display: block'
-    });
- }, 0);
+    document.getElementById("__nuxt").style = 'display: block'
+    handlePreloader();
+    sortableMasonry();
+ }, 100);
 })(window.jQuery);
