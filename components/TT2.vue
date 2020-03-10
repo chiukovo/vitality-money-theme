@@ -143,12 +143,11 @@
 
             <div class="auto-container">
               <div class="content-box">
-                <h3>Making Your Business Idea</h3>
-                <h2>Finan<span>dox </span></h2>
-                <div class="text">Our company is one of the world’s leading management <br>consulting firms. Get in
-                  touch here asap.</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services
-                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More
+                <!-- <h3>TT2</h3> -->
+                <h2>TT2</h2>
+                <div class="text">下位金融鉅子換你當</div>
+                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
                       --</span></a></div>
               </div>
             </div>
@@ -160,12 +159,27 @@
 
             <div class="auto-container">
               <div class="content-box">
-                <h3>Making Your Business Idea</h3>
-                <h2>Finan<span>dox </span></h2>
-                <div class="text">Our company is one of the world’s leading management <br>consulting firms. Get in
-                  touch here asap.</div>
-                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services
-                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More
+                <!-- <h3>TT2</h3> -->
+                <h2>TT2</h2>
+                <div class="text">全球期貨大亨強勢登場！</div>
+                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
+                      --</span></a></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Item -->
+          <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/5.jpg')"></div>
+
+            <div class="auto-container">
+              <div class="content-box">
+                <!-- <h3>TT2</h3> -->
+                <h2>TT2</h2>
+                <div class="text">免費試玩帳號提供中</div>
+                <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
+                      --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
                       --</span></a></div>
               </div>
             </div>
@@ -222,10 +236,10 @@
                     data-src="/tt2/images/resource/image-2.jpg" alt="">
                 </div>
                 <div class="image-two wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                  <div class="caption">F.</div>
+                  <!-- <div class="caption">F.</div> -->
                   <div class="image-outer"><img class="lazy-image owl-lazy"
                       src="/tt2/images/resource/image-spacer-for-validation.png"
-                      data-src="/tt2/images/resource/image-3.jpg" alt=""></div>
+                      data-src="/tt2/images/resource/image-3.png" alt=""></div>
                 </div>
               </div>
             </div>
@@ -372,13 +386,13 @@
                 </div>
               </div>
               <div class="author-box" style="background-image: url(/tt2/images/background/image-1.jpg);">
-                <div class="author-info">
+                <!-- <div class="author-info">
                   <div class="author-thumb"><img src="/tt2/images/resource/author-1.jpg" alt=""></div>
                   <h2>Rosalina D. William</h2>
                   <div class="designation">Founder</div>
                   <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
-                </div>
-                <div class="signature"><img src="/tt2/images/resource/signature.png" alt=""></div>
+                </div> -->
+                <!-- <div class="signature"><img src="/tt2/images/logo.png" alt=""></div> -->
               </div>
             </div>
           </div>
@@ -392,7 +406,7 @@
                 <div class="col-lg-6">
                     <div class="image-wrapper">
                         <div class="image-one">
-                            <img class="lazy-image owl-lazy loaded" src="/tt2/images/resource/image-10.jpg" data-src="/tt2/images/resource/image-10.jpg" alt="" data-was-processed="true">
+                            <img class="lazy-image owl-lazy loaded" src="/tt2/images/resource/image-10.png" data-src="/tt2/images/resource/image-10.png" alt="" data-was-processed="true">
                         </div>
                     </div>
                 </div>
@@ -400,23 +414,16 @@
                     <div class="content-box">
                         <div class="sec-title">
                             <div class="sub-title">About Us</div>
-                            <h2>關於TT2</h2>
-                            <div class="text">自從金融市場創建以來，已經開發了許多技術指標，最受歡迎的指標已經被加入TT2 交易平臺
-為方便投資者使用，這些指標被分成幾組：趨勢指標，振盪指標，交易量指標和比爾 威廉姆斯工具
-大部分技術指標都可以非常靈活的調整適應特定角色的工具，投資者可以管理負責指標結果和外觀的分析參數進行詳細設置
-例如：您可以改變移動平均指標的計算週期以及調整顏色，指標線寬度和線型的類型
-總之，TT2 為交易者提供了一套精心設計的工具，進行全面的技術分析
-即使要求最為挑剔的交易者也可以找到其想要的技術指標。您可以從平臺直接獲得先進的工具，完成從簡單到複雜任何水準的技術分析
-如果您有需要特殊功能的指標，您可以更深層次的要求能以合理的價格向專業程式師訂制開發自訂指標。
-</div>
+                            <h2>友好的用戶介面</h2>
+                            <div class="text">不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
                         </div>
                         <div class="author-info">
-                            <div class="wrapper-box">
-                                <h2>Rosalina D. William</h2>
-                                <div class="designation">Founder</div>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
-                            </div>
-                            <div class="signature"><img src="/tt2/images/resource/signature.png" alt=""></div>
+                          <!-- <div class="wrapper-box">
+                              <h2>Rosalina D. William</h2>
+                              <div class="designation">Founder</div>
+                              <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+                          </div>
+                          <div class="signature"><img src="/tt2/images/resource/signature.png" alt=""></div> -->
                         </div>
                     </div>
                 </div>
@@ -426,446 +433,48 @@
       </section>
 
       <!-- Video Section -->
-      <section class="video-section" style="background-image: url(/tt2/images/background/image-2.jpg);">
+      <section class="video-section" style="background-image: url(/tt2/images/background/image-5.jpg);">
         <div class="auto-container">
           <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-            <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s"
-              class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
+            <a href="http://t1789.cc/" class="overlay-link ripple" target="_blank"><span class="fas fa-play"></span></a>
           </div>
           <div class="sec-title light text-center">
-            <div class="sub-title">Intro Video</div>
-            <h2>Our Latest Insights <br>& Overview.</h2>
+            <div class="sub-title">Start now</div>
+            <h2>立即開始</h2>
           </div>
         </div>
       </section>
 
-      <!-- Why Choose Us Section -->
+      <!-- More Chinese words Section -->
       <section class="why-chooseus-section">
         <div class="auto-container">
           <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="content-box">
-                <div class="sec-title">
-                  <div class="sub-title">Why Choose Us</div>
-                  <h3>即時穩定的報價與最齊全的商品</h3>
+                <div class="sec-title" style="text-align: center;">
+                  <div class="sub-title">More Chinese words</div>
+                  <h3>支援多國語言</h3>
                 </div>
-
-                <!-- Tab panes -->
-                <div class="tab-content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                  <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
-                    <div class="clearfix">
-                      <div class="text">
-                        <p>為避免報價誤差與延遲TT2平台與國外知名報價廠商合作</p>
-                        <p>透過精密演算法呈現出與國外同步且精準的報價</p>
-                        <p>無論何時何地，您都可以在TT2網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="image-wrapper">
                 <div class="image-one"><img class="lazy-image owl-lazy"
                     src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/image-6.jpg" alt=""></div>
-                <div class="image-two"><img class="lazy-image owl-lazy"
-                    src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/image-5.jpg" alt=""></div>
+                    data-src="/tt2/images/resource/image-11.jpg" alt=""></div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Team Section -->
-      <section class="team-section" style="background-image: url(/tt2/images/background/image-3.jpg);">
-        <div class="auto-container">
-          <div class="sec-title text-center">
-            <div class="sub-title">Our Team</div>
-            <h2>Leadership Team</h2>
-          </div>
-          <div class="row">
-            <!-- Team Block One -->
-            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><img class="lazy-image owl-lazy"
-                    src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/team-1.jpg" alt=""></div>
-                <div class="content">
-                  <div class="designation">Founder</div>
-                  <h3>Rosalina D. William</h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore.</div>
-                </div>
-              </div>
-            </div>
-            <!-- Team Block One -->
-            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><img class="lazy-image owl-lazy"
-                    src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/team-2.jpg" alt=""></div>
-                <div class="content">
-                  <div class="designation">CEO</div>
-                  <h3>Velavos H. DesuJa</h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore.</div>
-                </div>
-              </div>
-            </div>
-            <!-- Team Block One -->
-            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><img class="lazy-image owl-lazy"
-                    src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/team-3.jpg" alt=""></div>
-                <div class="content">
-                  <div class="designation">Developer</div>
-                  <h3>Abdur Rahman J.</h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section class="contact-section">
-        <div class="auto-container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="sec-title">
-                <div class="sub-title">Write Here</div>
-                <h2>Get In Touch</h2>
-              </div>
-              <!-- Contact Form-->
-              <div class="contact-form">
-                <form method="post" action="sendemail.php" id="contact-form">
-                  <div class="row clearfix">
-                    <div class="col-md-12 form-group">
-                      <label for="name">Enter your name</label>
-                      <input type="text" name="username" id="name" placeholder="Enter name here......" required="">
-                      <i class="fas fa-user"></i>
-                    </div>
-
-                    <div class="col-md-12 form-group">
-                      <label for="email">Enter your email</label>
-                      <input type="email" name="email" id="email" placeholder="Enter email here......" required="">
-                      <i class="fas fa-envelope"></i>
-                    </div>
-
-                    <div class="col-md-12 form-group">
-                      <label for="message">Enter your message</label>
-                      <textarea name="message" id="message" placeholder="Enter message here......"></textarea>
-                      <i class="fas fa-edit"></i>
-                    </div>
-
-                    <div class="col-md-12 form-group">
-                      <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
-                          class="btn-title">Get In Touch</span></button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="sec-title">
-                <div class="sub-title">Get Us Here</div>
-                <h2>Contact Us</h2>
-              </div>
-              <div class="contact-info">
-                <div class="border-box">
-                  <div class="border_top"></div>
-                  <div class="border_middile"></div>
-                </div>
-                <div class="row">
-                  <div class="info-column col-md-6">
-                    <div class="icon-box">
-                      <div class="icon"><span class="flaticon-email-6"></span></div>
-                      <h3>Email Address</h3>
-                      <ul>
-                        <li><a href="mailto:info@webmail.com">info@webmail.com</a></li>
-                        <li><a href="mailto:jobs@exampleco.com">jobs@exampleco.com</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="info-column col-md-6">
-                    <div class="icon-box">
-                      <div class="icon"><span class="flaticon-call-1"></span></div>
-                      <h3>Phone Number</h3>
-                      <ul>
-                        <li><a href="tel:+8976765654654">+897 676 5654 654</a></li>
-                        <li><a href="tel:+908(097)56476576">+908(097) 564 765 76</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="info-column col-md-6">
-                    <div class="icon-box">
-                      <div class="icon"><span class="flaticon-location"></span></div>
-                      <h3>Office Address</h3>
-                      <ul>
-                        <li>12/A, Romania City Town Hall <br>New Joursey, UK</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="info-column col-md-6">
-                    <div class="icon-box">
-                      <div class="icon"><span class="flaticon-worldwide"></span></div>
-                      <h3>Web Connect</h3>
-                      <ul>
-                        <li><a href="http://example.com/">example.com</a></li>
-                        <li><a href="http://jobs.example.com/">jobs.example.com</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- News Section -->
-      <section class="news-section">
-        <div class="sec-bg" style="background-image: url(/tt2/images/background/image-4.jpg);"></div>
-        <div class="auto-container">
-          <div class="sec-title text-center light">
-            <div class="sub-title">News</div>
-            <h2>News From Resource</h2>
-          </div>
-          <div class="row">
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><a href="#"><img class="lazy-image owl-lazy"
-                      src="/tt2/images/resource/image-spacer-for-validation.png"
-                      data-src="/tt2/images/resource/news-1.jpg" alt=""></a></div>
-                <div class="lower-content">
-                  <div class="category">Business</div>
-                  <ul class="post-meta">
-                    <li><a href="#"><i class="far fa-calendar-alt"></i>24th March 2020</a></li>
-                    <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                  </ul>
-                  <h3><a href="blog-details.html">UX is best solution for your <br>business & make noise.</a></h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or
-                    incididunt ut labore et dolore</div>
-                </div>
-              </div>
-            </div>
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><a href="#"><img class="lazy-image owl-lazy"
-                      src="/tt2/images/resource/image-spacer-for-validation.png"
-                      data-src="/tt2/images/resource/news-2.jpg" alt=""></a></div>
-                <div class="lower-content">
-                  <div class="category">Business</div>
-                  <ul class="post-meta">
-                    <li><a href="#"><i class="far fa-calendar-alt"></i>26th March 2020</a></li>
-                    <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                  </ul>
-                  <h3><a href="blog-details.html">Business consultant is involved in the planning.</a></h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or
-                    incididunt ut labore et dolore</div>
-                </div>
-              </div>
-            </div>
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-              <div class="inner-box">
-                <div class="image"><a href="#"><img class="lazy-image owl-lazy"
-                      src="/tt2/images/resource/image-spacer-for-validation.png"
-                      data-src="/tt2/images/resource/news-3.jpg" alt=""></a></div>
-                <div class="lower-content">
-                  <div class="category">Business</div>
-                  <ul class="post-meta">
-                    <li><a href="#"><i class="far fa-calendar-alt"></i>28th March 2020</a></li>
-                    <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                  </ul>
-                  <h3><a href="blog-details.html">Business consultant is a professional who analyzes.</a></h3>
-                  <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or
-                    incididunt ut labore et dolore</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Award Section -->
-      <section class="award-section pt-0">
-        <div class="year">2020</div>
-        <div class="auto-container">
-          <div class="sec-title text-center">
-            <div class="sub-title">Awards</div>
-            <h2>Get Awards</h2>
-          </div>
-          <div class="award-image">
-            <div class="row align-items-center">
-              <div class="col-lg-4">
-                <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                    src="/tt2/images/resource/award-1.png" alt=""></div>
-                <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                    src="/tt2/images/resource/award-2.png" alt=""></div>
-              </div>
-              <div class="col-lg-4 order-lg-2">
-                <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                    src="/tt2/images/resource/award-3.png" alt=""></div>
-                <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img
-                    src="/tt2/images/resource/award-4.png" alt=""></div>
-              </div>
-              <div class="col-lg-4 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <div class="image"><img src="/tt2/images/resource/award-5.png" alt=""></div>
-              </div>
-
-            </div>
-          </div>
-          <div class="feature-image">
-            <div class="image-one"><img src="/tt2/images/resource/image-7.jpg" alt=""></div>
-            <div class="image-two"><img src="/tt2/images/resource/image-8.jpg" alt=""></div>
-            <div class="image-three"><img src="/tt2/images/resource/image-9.jpg" alt=""></div>
           </div>
         </div>
       </section>
 
       <!-- Main Footer -->
       <footer class="main-footer">
-        <div class="auto-container">
-          <!--Widgets Section-->
-          <div class="widgets-section">
-            <div class="row clearfix">
-
-              <!--Column-->
-              <div class="column col-lg-4">
-                <div class="footer-widget logo-widget">
-                  <div class="widget-content">
-                    <div class="footer-logo">
-                      <a href="index.html"><img class="lazy-image"
-                          src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/footer-logo.png" alt="" /></a>
-                    </div>
-                    <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip.</div>
-                    <ul class="social-links clearfix">
-                      <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                      <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                      <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                      <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <!--Column-->
-              <div class="column col-lg-4">
-                <div class="footer-widget links-widget">
-                  <div class="widget-content">
-                    <h3>Links</h3>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Portfolio</a></li>
-                          <li><a href="#">Pricing</a></li>
-                          <li><a href="#">Contact</a></li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <ul>
-                          <li><a href="#">News</a></li>
-                          <li><a href="#">Press Release</a></li>
-                          <li><a href="#">Case Study</a></li>
-                          <li><a href="#">Terms</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--Column-->
-              <div class="column col-lg-4">
-                <div class="footer-widget instagram-widget">
-                  <h3>Photo Showcase</h3>
-                  <div class="inner-box">
-                    <div class="wrapper-box">
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-1.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-1.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-2.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-2.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-3.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-3.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-4.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-4.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-5.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-5.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-6.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-6.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-7.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-7.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-8.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-8.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                      <div class="image">
-                        <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                          data-src="/tt2/images/gallery/gallery-9.jpg" alt="">
-                        <div class="overlay-link"><a href="/tt2/images/gallery/gallery-9.jpg" class="lightbox-image"
-                            data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
-                      </div>
-                    </div>
-                    <!-- /.gallery-wrapper -->
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
 
         <!-- Footer Bottom -->
         <div class="auto-container">
           <div class="footer-bottom">
-            <div class="copyright">Copyright By<a href="#">Template_path</a> - 2020</div>
+            <div class="copyright">copyright © TT2</div>
           </div>
         </div>
       </footer>
