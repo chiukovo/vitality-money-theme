@@ -21,7 +21,6 @@
       </div>
       <!-- Main Header -->
       <header class="main-header">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
         <!-- Header Top -->
         <div class="header-top">
           <div class="auto-container">
@@ -54,7 +53,7 @@
                   <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
-                      <li><a href="#">平台介紹</a></li>
+                      <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li>
                       <li class="dropdown"><a href="#">交易平台</a>
                         <ul>
                             <li><a href="#">TT2交易平台</a></li>
@@ -511,7 +510,7 @@
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade modal-info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
