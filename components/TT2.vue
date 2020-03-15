@@ -1,15 +1,6 @@
 <template>
   <div>
     <div class="page-wrapper">
-      <!-- Preloader -->
-      <div class="loader-wrap">
-        <div class="preloader">
-          <div class="preloader-close">preloadering</div>
-        </div>
-        <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>
-        <div class="layer layer-three"><span class="overlay"></span></div>
-      </div>
 
       <!-- Main Header -->
       <header class="main-header">
@@ -45,7 +36,14 @@
                   <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
-                      <li><a href="#">交易平台</a></li>
+                      <li><a href="#">平台介紹</a></li>
+                      <li class="dropdown"><a href="#">交易平台</a>
+                        <ul>
+                            <li><a href="#">TT2交易平台</a></li>
+                            <li><a href="#">金融家交易平台</a></li>
+                            <li><a href="#">好神期交易平台</a></li>
+                        </ul>
+                      </li>
                       <li><a href="#">多國語言</a></li>
                       <li><a href="#">意見調查</a></li>
                       <li><a :href="tt2_url">註冊</a></li>
@@ -140,47 +138,58 @@
           <!-- Slide Item -->
           <div class="slide-item">
             <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/1.jpg')"></div>
-
             <div class="auto-container">
               <div class="content-box">
-                <!-- <h3>TT2</h3> -->
-                <h2>TT2</h2>
-                <div class="text">下位金融鉅子換你當</div>
-                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
-                      --</span></a></div>
+                <h2>Professional platform</h2>
+                <div class="text">通往全球市場的專業平台</div>
               </div>
             </div>
           </div>
 
           <!-- Slide Item -->
           <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/5.jpg')"></div>
-
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
             <div class="auto-container">
               <div class="content-box">
                 <!-- <h3>TT2</h3> -->
-                <h2>TT2</h2>
-                <div class="text">全球期貨大亨強勢登場！</div>
-                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
-                      --</span></a></div>
+                <h2>Simple transaction</h2>
+                <div class="text">科技讓交易變得簡單<br>優質的交易體驗</div>
               </div>
             </div>
           </div>
 
           <!-- Slide Item -->
           <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/5.jpg')"></div>
-
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
             <div class="auto-container">
               <div class="content-box">
                 <!-- <h3>TT2</h3> -->
-                <h2>TT2</h2>
-                <div class="text">免費試玩帳號提供中</div>
-                <div class="btn-box"><a :href="tt2_url" class="theme-btn btn-style-one"><span class="btn-title">-- 註冊
-                      --</span></a><a :href="tt2_url" class="theme-btn btn-style-two"><span class="btn-title">-- 登入
-                      --</span></a></div>
+                <h2>Powerful and Secure</h2>
+                <div class="text">強大的圖表分析<br>穩定且安全的系統架構</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Item -->
+          <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
+            <div class="auto-container">
+              <div class="content-box">
+                <!-- <h3>TT2</h3> -->
+                <h2>High performance 「H5」</h2>
+                <div class="text">全新高效能H5<br>跨平台網頁交易系統</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide Item -->
+          <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
+            <div class="auto-container">
+              <div class="content-box">
+                <!-- <h3>TT2</h3> -->
+                <h2>Instant and detailed quote</h2>
+                <div class="text">即時且詳細的報價<br>讓您永遠比別人早一步掌握市場價格</div>
               </div>
             </div>
           </div>
@@ -233,9 +242,9 @@
               <div class="image-wrapper">
                 <div class="image-one">
                   <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/image-2.jpg" alt="">
+                    data-src="/tt2/images/resource/image-2.png" alt="">
                 </div>
-                <div class="image-two wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                <div class="image-two wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms" style="max-width: 190px;">
                   <!-- <div class="caption">F.</div> -->
                   <div class="image-outer"><img class="lazy-image owl-lazy"
                       src="/tt2/images/resource/image-spacer-for-validation.png"
@@ -446,7 +455,7 @@
       </section>
 
       <!-- More Chinese words Section -->
-      <section class="why-chooseus-section">
+      <!-- <section class="why-chooseus-section">
         <div class="auto-container">
           <div class="row align-items-center">
             <div class="col-lg-12">
@@ -466,7 +475,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Main Footer -->
       <footer class="main-footer">
