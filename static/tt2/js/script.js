@@ -545,6 +545,7 @@
 
     setTimeout(() => {
         loopA();
+        $('.carousel').carousel()
     }, 500);
 
     function loopA() {

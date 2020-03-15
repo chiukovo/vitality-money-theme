@@ -21,6 +21,7 @@
       </div>
       <!-- Main Header -->
       <header class="main-header">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
         <!-- Header Top -->
         <div class="header-top">
           <div class="auto-container">
@@ -510,6 +511,45 @@
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
