@@ -177,7 +177,7 @@
 
           <!-- Slide Item -->
           <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/3.jpg')"></div>
             <div class="auto-container">
               <div class="content-box">
                 <!-- <h3>TT2</h3> -->
@@ -189,7 +189,7 @@
 
           <!-- Slide Item -->
           <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/4.jpg')"></div>
             <div class="auto-container">
               <div class="content-box">
                 <!-- <h3>TT2</h3> -->
@@ -201,7 +201,7 @@
 
           <!-- Slide Item -->
           <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/2.jpg')"></div>
+            <div class="image-layer lazy-image" data-bg="url('/tt2/images/main-slider/5.jpg')"></div>
             <div class="auto-container">
               <div class="content-box">
                 <!-- <h3>TT2</h3> -->
@@ -210,7 +210,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
       <!--End Banner Section -->
