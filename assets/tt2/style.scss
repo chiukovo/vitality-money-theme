@@ -1,8 +1,11 @@
 .real-mneu {
     width: 100%;
     height: 70px;
-    background: #000;
+    background: rgba(18, 19, 24, 0.87);
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 9;
 
     .scroll-div {
       display: flex;
@@ -16,90 +19,120 @@
     }
 
     .win {
-        .updown-percent, .updown-price {
-            color: rgb(197, 82, 99);
-        }
+      .updown-percent, .updown-price {
+          color: #f5657a;
+      }
 
-        .updown-percent {
-            /*background: #000 url(/image/win-arrow.png) no-repeat;;*/
-            background-position: 13px 8px;
-            background-size: 20px 15px;
+      .updown-percent {
+        position: relative;
+        &:before {
+          font-family: 'Font Awesome 5 Pro';
+          position: absolute;
+          left: 16px;
+          top: -2px;
+          display: block;
+          line-height: 30px;
+          font-size: 12px;
+          text-align: center;
+          z-index: 5;
+          content: '\f077';
         }
+      }
     }
 
     .loss {
-        .updown-percent, .updown-price {
-            color: rgb(45, 151, 126);
-        }
+      .updown-percent, .updown-price {
+          color: #00b6b0;
+      }
 
-        .updown-percent {
-            /*background: #000 url(/image/loss-arrow.png) no-repeat;;*/
-            background-position: 13px 8px;
-            background-size: 20px 15px;
+      .updown-percent {
+        position: relative;
+        &:before {
+          font-family: 'Font Awesome 5 Pro';
+          position: absolute;
+          left: 16px;
+          top: -2px;
+          display: block;
+          line-height: 30px;
+          font-size: 12px;
+          text-align: center;
+          z-index: 5;
+          content: '\f078';
         }
+      }
     }
 
-    .item-line {
+    // .item-line {
+    //     width: 1px;
+    //     background: #333;
+    //     height: 50px;
+    //     margin-top: 8px;
+    // }
+
+    .item {
+      margin-left: 1px;
+      float: left;
+      width: 170px;
+      height: 100%;
+      color: #fff;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
         width: 1px;
         background: #333;
         height: 50px;
         margin-top: 8px;
-    }
+      }
 
-    .item {
-        margin-left: 1px;
-        float: left;
-        width: 170px;
-        height: 100%;
-        color: #fff;
+      .item-header {
+        height: 30px;
+        width: 100%;
 
-        .item-header {
-            height: 30px;
-            width: 100%;
+        .item-name {
+          float: left;
+          width: 65%;
+          padding-left: 20px;
+          height: 30px;
+          line-height: 30px;
+          font-size: 12px;
 
-            .item-name {
-                float: left;
-                width: 65%;
-                padding-left: 20px;
-                height: 30px;
-                line-height: 30px;
-                font-size: 12px;
-
-                b {
-                    padding-left: 8px;
-                    color: #ccc;
-                }
-            }
-
-            .item-price {
-                float: left;
-                width: 35%;
-                height: 30px;
-                line-height: 30px;
-                font-size: 12px;
-                padding-left: 5px;
-            }
+          b {
+            padding-left: 8px;
+            color: #ccc;
+          }
         }
 
-        .item-body {
-            height: 35px;
-
-            .updown-percent {
-                font-size: 22px;
-                height: 30px;
-                padding-left: 40px;
-                float: left;
-                width: 65%;
-            }
-
-            .updown-price {
-                font-size: 12px;
-                height: 27px;
-                display: table-cell;
-                vertical-align: bottom;
-                padding-left: 5px;
-            }
+        .item-price {
+          float: left;
+          width: 35%;
+          height: 30px;
+          line-height: 30px;
+          font-size: 12px;
+          padding-left: 5px;
         }
+      }
+
+      .item-body {
+        height: 35px;
+
+        .updown-percent {
+          font-size: 22px;
+          height: 30px;
+          padding-left: 40px;
+          float: left;
+          width: 65%;
+        }
+
+        .updown-price {
+          font-size: 12px;
+          height: 27px;
+          display: table-cell;
+          vertical-align: bottom;
+          padding-left: 5px;
+        }
+      }
     }
 }
 .logo {
@@ -185,4 +218,8 @@
 
 .banner-carousel .slide-item .image-layer {
   opacity: 0.2 !important;
+}
+
+.main-header {
+  top: 70px !important;
 }

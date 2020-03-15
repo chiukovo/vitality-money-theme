@@ -15,7 +15,6 @@
                   <div class="updown-price">{{ data.price }}</div>
                 </div>
               </div>
-              <div class="item-line"></div>
             </div>
           </div>
         </div>
