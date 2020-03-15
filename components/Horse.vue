@@ -36,8 +36,8 @@
                     <li class="rd-megamenu-item">
                       <p class="rd-megamenu-title">交易平台</p>
                       <ul class="rd-megamenu-list">
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="horse_url">B交易平台</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="dt_url">D交易平台</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="horse_url">金融家交易系統</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="dt_url">好神期交易系統ip</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -77,7 +77,7 @@
               <div class="slick-slide-caption">
                 <h6>創新，安全，專業</h6>
                 <h1>讓獲利更簡單</h1>
-                <h3 class="decoration-heading-1">已有數百萬人使用 金融家系統。</h3>
+                <h3 class="decoration-heading-1">數百萬人使用 金融家系統</h3>
                 <p>進行世界最受歡迎的市場交易，探索無限交易選擇。我們提供數千種金融工具、免費即時行情和全天候線上支持。</p>
                 <div class="slick-slide-caption__footer"><a class="button button-primary" href="#" data-toggle="modal" data-target="#modal">立即登入</a></div>
               </div>
@@ -97,6 +97,15 @@
                 <h1>全新H5 智能分析</h1>
                 <h3 class="decoration-heading-1">簡單操作 適合所有族群</h3>
                 <p>每次最小交易手數低至0.01手，低保證金即可開倉。交易非常有競爭力、透明的低價差，低隔夜利息，讓您盡享低成本的交易</p>
+                <div class="slick-slide-caption__footer"><a class="button button-primary" href="#" data-toggle="modal" data-target="#modal">立即登入</a></div>
+              </div>
+            </div>
+            <div>
+              <div class="slick-slide-caption">
+                <h6>穩定且安全的系統架構</h6>
+                <h1>選擇喜歡的交易系統</h1>
+                <h3 class="decoration-heading-1">交易行為固定 簡單化、模式化</h3>
+                <p>即時且詳細的報價 讓您永遠比別人早一步掌握市場價格</p>
                 <div class="slick-slide-caption__footer"><a class="button button-primary" href="#" data-toggle="modal" data-target="#modal">立即登入</a></div>
               </div>
             </div>
@@ -148,16 +157,16 @@
     <section class="section bg-white section-xl">
       <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
-          <div class="col-md-8 col-lg-5">
+          <div class="col-md-8 col-lg-12 text-center">
             <h6>html5 Technology</h6>
             <h2><strong>HTML5</strong></h2>
             <p>HTML5作爲一種被多個操作系統共同使用的標準，已經成爲跨平臺開發應用程序的首選。最大的特點就是手機移動平臺和電腦平臺都可以暢通無阻的玩遊戲，所以你不用裝任何APP軟體，只需要輸入網址就可以盡情享受。</p>
             <p>支援各種電腦系統，並且完美兼容各種移動設備。</p>
           </div>
-          <div class="col-md-4 col-xl-7">
+          <div class="col-md-4 col-xl-12" style="max-width: 1000px;margin: auto;">
             <div class="image-group-2">
-              <img src="/horse/images/MacBook.png" alt="" width="605" height="348" data-parallax-scroll="{&quot;y&quot;: 60,  &quot;smoothness&quot;: 30 }"/>
-              <img src="/horse/images/iPhone 5S.png" alt="" width="180" height="382" data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30}"/>
+              <img src="/horse/images/macbook.gif" alt="" width="1000" height="467" data-parallax-scroll="{&quot;y&quot;: 20,  &quot;smoothness&quot;: 30 }"/>
+              <img src="/horse/images/iphone.gif" alt="" width="200" height="405" data-parallax-scroll="{&quot;y&quot;: 60,  &quot;smoothness&quot;: 30}"/>
             </div>
           </div>
         </div>
@@ -201,7 +210,7 @@
         <!-- <span><span style="max-width: 430px;">Bitcoin is received, stored, and sent using software known as Bitcoin Wallet, which is available for free.</span></p> -->
         <div class="row row-30">
           <div class="col-lg-7">
-            <div class="image-group-3"><img src="/horse/images/index-ipad.png" alt="" width="812" height="592" data-parallax-scroll="{&quot;y&quot;: 80,  &quot;smoothness&quot;: 30 }"/>
+            <div class="image-group-3"><img src="/horse/images/pad.gif" alt="" width="812" height="592" data-parallax-scroll="{&quot;y&quot;: 80,  &quot;smoothness&quot;: 30 }"/>
             </div>
           </div>
           <div class="col-lg-5">
@@ -501,8 +510,8 @@
               <div class="form-select">
                 <span class="icon linearicons-chevron-down"></span>
                 <select v-model='type'>
-                  <option value="b">B交易平台</option>
-                  <option value="d">D交易平台</option>
+                  <option value="b">金融家交易系統</option>
+                  <option value="d">好神期交易系統ip</option>
                 </select>
               </div>
             </div>
