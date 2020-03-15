@@ -542,5 +542,23 @@
     document.getElementById("__nuxt").style = 'display: block'
     handlePreloader();
     sortableMasonry();
+
+    setTimeout(() => {
+        loopA();
+    }, 500);
+
+    function loopA() {
+        $(".real-mneu").scrollLeft(0);
+        $(".real-mneu").animate(
+            { scrollLeft: 2000 },
+            {
+                duration: 28000,
+                easing: "linear",
+                complete: function() {
+                    loopA()
+                }
+            }
+        );
+    }
  }, 100);
 })(window.jQuery);

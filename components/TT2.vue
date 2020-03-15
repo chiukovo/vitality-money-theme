@@ -1,7 +1,25 @@
 <template>
   <div>
     <div class="page-wrapper">
-
+      <div class="real-mneu">
+        <div class="scroll-out">
+          <div class="scroll-div">
+            <div v-for="data in com_detail_array">
+              <div class="item" :class="[data.classCheck, data.color]">
+                <div class="item-header">
+                  <div class="item-name">{{ data.comName }}<b>•</b></div>
+                  <div class="item-price">{{ data.close }}</div>
+                </div>
+                <div class="item-body">
+                  <div class="updown-percent">{{ data.percent }}%</div>
+                  <div class="updown-price">{{ data.price }}</div>
+                </div>
+              </div>
+              <div class="item-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Main Header -->
       <header class="main-header">
         <!-- Header Top -->
@@ -599,6 +617,8 @@
         dt_url: '',
         horse_url: '',
         tt2_url: '',
+        com_array: [],
+        com_detail_array: [],
       }
     },
     mounted() {
@@ -614,8 +634,71 @@
         this.account = remember.account
         this.password = remember.password
       }
+
+      //get query_cominfo
+      this.getCominInfo()
+      window.setInterval(( () => this.getCominInfoDetail() ), 10000)
     },
     methods: {
+      getCominInfo() {
+        const _this = this
+
+        axios.post(process.env.NUXT_ENV_API_URL + "/query_cominfo")
+        .then(response => {
+          _this.com_array = response.data.ComArray
+          _this.getCominInfoDetail()
+        })
+      },
+      getCominInfoDetail() {
+        const _this = this
+
+        axios.post(process.env.NUXT_ENV_API_URL + "/query_cominfo_detail")
+        .then(response => {
+          _this.mergeDetail(_this.com_array, response.data.ComDetailArray)
+        })
+      },
+      mergeDetail(comInfo, comInfoDetail) {
+        const _this = this
+
+        _this.com_detail_array = []
+
+        comInfo.forEach(function(info) {
+          comInfoDetail.forEach(function(detail) {
+            if (info.comId == detail.id) {
+              _this.com_detail_array.push(Object.assign(info, detail))
+            }
+          })
+        })
+
+        _this.formatData()
+      },
+      formatData() {
+        const _this = this
+
+        this.com_detail_array.forEach(function(detail) {
+          const standard = detail.reference
+          const up_down = Math.round((detail.close - standard) * 1000) / 1000
+          let up_down_ratio = 0
+          if(standard > 0) {
+              up_down_ratio = Math.abs(Math.round(up_down / standard * 10000) / 100)
+          }
+          else {
+              up_down_ratio = 0;
+          }
+
+          detail.price = up_down
+          detail.percent = up_down_ratio
+          detail.color = _this.getColor(0, up_down)
+          detail.classCheck = detail.comOpened ? 'online' : 'offline'
+
+          return detail
+        })
+      },
+      getColor(target, value) {
+        if(value == 0)
+            return ""
+        return value > target ? "win" : value < target ? "loss" : ""
+      },
       async doLogin() {
         let _this = this
         if (this.account == '' || this.password == '') {
@@ -624,31 +707,31 @@
         }
         this.loading = true
         await axios.post(process.env.NUXT_ENV_API_URL + "/validation", qs.stringify({
-            LoginAccount: this.account,
-            LoginPassword: this.password,
-            LoginMobile: 0,
-          }))
-          .then(response => {
-            const result = response.data
-            if (result['Code'] <= 0) {
-              alert(result['ErrorMsg'], '注意!')
-              _this.loading = false
-              return
-            }
-            //記住我
-            _this.$store.commit('setRemember', {
-              me: _this.rememberMe,
-              account: _this.account,
-              password: _this.password,
-            })
-            const params = '/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
-              .URL
-            if (_this.type == 'b') {
-              location.href = _this.horse_url + params
-            } else {
-              location.href = _this.dt_url + params
-            }
+          LoginAccount: this.account,
+          LoginPassword: this.password,
+          LoginMobile: 0,
+        }))
+        .then(response => {
+          const result = response.data
+          if (result['Code'] <= 0) {
+            alert(result['ErrorMsg'], '注意!')
+            _this.loading = false
+            return
+          }
+          //記住我
+          _this.$store.commit('setRemember', {
+            me: _this.rememberMe,
+            account: _this.account,
+            password: _this.password,
           })
+          const params = '/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
+            .URL
+          if (_this.type == 'b') {
+            location.href = _this.horse_url + params
+          } else {
+            location.href = _this.dt_url + params
+          }
+        })
       }
     },
   }

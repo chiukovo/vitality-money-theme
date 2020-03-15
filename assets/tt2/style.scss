@@ -1,3 +1,107 @@
+.real-mneu {
+    width: 100%;
+    height: 70px;
+    background: #000;
+    overflow: hidden;
+
+    .scroll-div {
+      display: flex;
+      > div {
+        position: relative;
+      }
+    }
+    .scroll-out {
+      height: 65px;
+      width: 100%;
+    }
+
+    .win {
+        .updown-percent, .updown-price {
+            color: rgb(197, 82, 99);
+        }
+
+        .updown-percent {
+            /*background: #000 url(/image/win-arrow.png) no-repeat;;*/
+            background-position: 13px 8px;
+            background-size: 20px 15px;
+        }
+    }
+
+    .loss {
+        .updown-percent, .updown-price {
+            color: rgb(45, 151, 126);
+        }
+
+        .updown-percent {
+            /*background: #000 url(/image/loss-arrow.png) no-repeat;;*/
+            background-position: 13px 8px;
+            background-size: 20px 15px;
+        }
+    }
+
+    .item-line {
+        width: 1px;
+        background: #333;
+        height: 50px;
+        margin-top: 8px;
+    }
+
+    .item {
+        margin-left: 1px;
+        float: left;
+        width: 170px;
+        height: 100%;
+        color: #fff;
+
+        .item-header {
+            height: 30px;
+            width: 100%;
+
+            .item-name {
+                float: left;
+                width: 65%;
+                padding-left: 20px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+
+                b {
+                    padding-left: 8px;
+                    color: #ccc;
+                }
+            }
+
+            .item-price {
+                float: left;
+                width: 35%;
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+                padding-left: 5px;
+            }
+        }
+
+        .item-body {
+            height: 35px;
+
+            .updown-percent {
+                font-size: 22px;
+                height: 30px;
+                padding-left: 40px;
+                float: left;
+                width: 65%;
+            }
+
+            .updown-price {
+                font-size: 12px;
+                height: 27px;
+                display: table-cell;
+                vertical-align: bottom;
+                padding-left: 5px;
+            }
+        }
+    }
+}
 .logo {
   padding: 1rem 0;
   img {
