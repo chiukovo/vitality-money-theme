@@ -128,34 +128,35 @@
       }
     }
 }
-.modal-login.modal-content {
+.modal-login .modal-content {
   background-color: #263047 !important;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.65) !important;
   h1, h2, h3, h4, h5, h6, [class^=heading-] {
     color: #fff;
   }
 }
-
 .modal-login.login {
   .modal-dialog {
     max-width: 320px !important;
   }
 }
-@media (min-width: 1200px) {
-  .modal-login .modal-content {
-    padding-top: 45px !important;
-  }
+.modal-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 .modal-form {
   color: #fff;
   display: flex;
   flex-flow: column;
+  .group-justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
   .form-group {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    margin-bottom: 14px !important;
     .form-input-label {
       display: block;
       width: 50px;
@@ -176,11 +177,17 @@
       position: relative;
       width: 100%;
       height: 34px;
-      .icon {
+      &:after {
+        font-family: 'Font Awesome 5 Pro';
         position: absolute;
+        display: block;
+        line-height: 34px;
+        font-size: 12px;
+        text-align: center;
+        z-index: 5;
         right: 10px;
-        top: 50%;
-        transform: translateY(-8px);
+        top: 0;
+        content: '\f078';
       }
       select {
         width: 100%;
@@ -196,13 +203,13 @@
     }
     button {
       width: 100%;
-      background-color: #e3a432;
+      background-image: -webkit-linear-gradient(0deg, #0e3775 0%, #026685 100%) !important;
       border: 0;
       color: #fff;
       padding: 6px;
       cursor: pointer;
       &:hover {
-        background-color: #c98c1d;
+        background-image: -webkit-linear-gradient(0deg, #22a4d0 0%, #026685 100%) !important;
       }
     }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -308,4 +315,10 @@
 
 .main-header .header-upper .inner-container {
   background: rgba(18, 19, 24, 0.38) !important;
+}
+.banner-carousel .content-box:before {
+  display: none;
+}
+.slide-item .auto-container {
+  max-width: 1100px !important;
 }

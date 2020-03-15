@@ -429,42 +429,42 @@
       <section class="about-section-two">
         <div class="auto-container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="image-wrapper">
-                        <div class="image-one">
-                          <div id="about-img" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="d-block w-100" src="/tt2/images/resource/image-10.png" alt="First slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="/tt2/images/resource/image-10.png" alt="Second slide">
-                              </div>
-                              <div class="carousel-item">
-                                <img class="d-block w-100" src="/tt2/images/resource/image-10.png" alt="Third slide">
-                              </div>
+              <div class="col-lg-12">
+                  <div class="content-box">
+                      <div class="sec-title text-center">
+                          <div class="sub-title">About Us</div>
+                          <h2>友好的用戶介面</h2>
+                          <div>不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-12">
+                  <div class="image-wrapper">
+                      <div class="image-one">
+                        <div id="about-img" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme1.png" alt="First slide">
                             </div>
-                            <a class="carousel-control-prev" href="#about-img"" role="button" data-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#about-img"" role="button" data-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="sr-only">Next</span>
-                            </a>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme3.png" alt="Third slide">
+                            </div>
                           </div>
+                          <a class="carousel-control-prev" href="#about-img"" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#about-img"" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="content-box">
-                        <div class="sec-title">
-                            <div class="sub-title">About Us</div>
-                            <h2>友好的用戶介面</h2>
-                            <div class="text">不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
-                        </div>
-                    </div>
-                </div>
+                      </div>
+                  </div>
+              </div>
             </div>
         </div>
       </section>
@@ -527,7 +527,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="font-weight-bold modal-title" id="modal-login-register-label">登入系統</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
           </div>
           <div class="modal-body">
             <div class="group-sm modal-form">
@@ -541,8 +541,8 @@
               </div>
               <div class="form-group">
                 <div class="form-select">
-                  <span class="icon linearicons-chevron-down"></span>
                   <select v-model='type'>
+                    <option value="">TT2交易系統</option>
                     <option value="b">金融家交易系統</option>
                     <option value="d">好神期交易系統</option>
                   </select>
@@ -551,7 +551,7 @@
               <div class="form-group form-button">
                 <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
               </div>
-              <div class="form-group group-sm-justify">
+              <div class="form-group group-justify">
                 <div class="form-group-col">
                   <input type="checkbox" id="save_account" v-model="rememberMe">
                   <label for="save_account">記住帳號</label>
