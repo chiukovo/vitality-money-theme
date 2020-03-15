@@ -514,6 +514,7 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
+            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">平台介紹</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -527,13 +528,13 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="First slide">
+                  <img class="d-block w-100" src="/tt2/images/banner/banner1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="Second slide">
+                  <img class="d-block w-100" src="/tt2/images/banner/banner2.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="/tt2/images/resource/image-2.png" alt="Third slide">
+                  <img class="d-block w-100" src="/tt2/images/banner/banner3.jpg" alt="First slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
