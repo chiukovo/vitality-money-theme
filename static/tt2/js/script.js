@@ -553,7 +553,7 @@
         $(".real-mneu").animate(
             { scrollLeft: 2000 },
             {
-                duration: 28000,
+                duration: 27000,
                 easing: "linear",
                 complete: function() {
                     loopA()

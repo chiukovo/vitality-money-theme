@@ -511,7 +511,7 @@
                 <span class="icon linearicons-chevron-down"></span>
                 <select v-model='type'>
                   <option value="b">金融家交易系統</option>
-                  <option value="d">好神期交易系統ip</option>
+                  <option value="d">好神期交易系統</option>
                 </select>
               </div>
             </div>
