@@ -1,6 +1,6 @@
 /* Finandox Business HTML Template  */
 
-/*** 
+/***
 
 ====================================================================
 			Fonts
@@ -24,7 +24,7 @@ font-family: 'Roboto', sans-serif;
 @import url('jquery.touchspin.css');
 @import url('botstrap-select.min.css');
 @import url('shop.css');
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -41,7 +41,7 @@ font-family: 'Roboto', sans-serif;
     line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -427,7 +427,7 @@ img {
     line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -460,7 +460,7 @@ img {
     color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -1458,7 +1458,7 @@ img {
     top: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Search Popup
@@ -1599,7 +1599,7 @@ img {
     transition: all 0.5s ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Sticky Header
@@ -1638,7 +1638,7 @@ img {
 }
 
 .sticky-header .main-menu .navigation>li {
-    margin-left: 50px !important;
+    margin-left: 0 !important;
     padding: 0 !important;
     margin-right: 0;
     background-color: transparent;
@@ -1666,7 +1666,7 @@ img {
     right: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Mobile Menu
@@ -2228,7 +2228,7 @@ img {
     cursor: pointer;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section
@@ -2697,7 +2697,7 @@ img {
     padding: 220px 0px 350px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Section Title
@@ -2782,7 +2782,7 @@ img {
     padding-right: 70px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -6360,7 +6360,7 @@ img.lazy-image.loaded {
     margin-right: 7px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Banner Style
@@ -6455,7 +6455,7 @@ img.lazy-image.loaded {
     -o-transition: all 0.3s ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sponsors Section

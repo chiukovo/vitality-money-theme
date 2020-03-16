@@ -37,13 +37,13 @@
                       <p class="rd-megamenu-title">交易平台</p>
                       <ul class="rd-megamenu-list">
                         <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="horse_url">金融家交易系統</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="dt_url">好神期交易系統ip</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="dt_url">好神期交易系統</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">關於我們</a></li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">多國語言</a></li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">語言選擇</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">意見調查</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" data-toggle="modal" data-target="#modal">註冊</a></li>
                 <li class="rd-nav-item">

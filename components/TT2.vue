@@ -22,11 +22,11 @@
       <!-- Main Header -->
       <header class="main-header">
         <!-- Header Top -->
-        <div class="header-top">
+        <!-- <div class="header-top">
           <div class="auto-container">
             <div class="inner">
               <div class="top-left">
-                <!--Logo-->
+                <!--Logo--
                 <div class="logo-box">
                   <div class="logo"><a href="/"><img src="/tt2/images/logo.png" alt=""></a></div>
                 </div>
@@ -37,7 +37,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Header Upper -->
         <div class="header-upper">
@@ -46,6 +46,7 @@
               <!--Nav Box-->
               <div class="nav-outer clearfix">
                 <!--Mobile Navigation Toggler-->
+                <div class="logo"><a href="/"><img src="/tt2/images/logo.png" alt=""></a></div>
                 <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
 
                 <!-- Main Menu -->
@@ -53,7 +54,14 @@
                   <div class="collapse navbar-collapse show clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
-                      <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li>
+                      <li><a href="#">國際指數</a></li>
+                      <li><a href="#">經濟數據</a></li>
+                      <li><a href="#">期貨報告</a></li>
+                      <li><a href="#">市場動態</a></li>
+                      <li><a href="#">新聞</a></li>
+                      <li><a href="#">匯率</a></li>
+                      <li><a href="#">行事曆</a></li>
+                      <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
                       <li class="dropdown"><a href="#">交易平台</a>
                         <ul>
                             <li><a href="#">TT2交易平台</a></li>
@@ -61,9 +69,18 @@
                             <li><a href="#">好神期交易平台</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">多國語言</a></li>
+                      <li><a href="#">下載</a>
+                        <ul>
+                            <li><a href="https://anydesk.com/zhs" target="_blank">AnyDesk</a></li>
+                            <li><a href="https://www.teamviewer.com/tw/download/windows/" target="_blank">TeamViewer</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">語言切換</a></li>
                       <li><a href="#">意見調查</a></li>
                       <li><a :href="tt2_url">註冊</a></li>
+                      <li><a class="button-login" data-toggle="modal" data-target=".modal-login">
+                        <span>登入</span>
+                        </a></li>
                     </ul>
                   </div>
                 </nav>
@@ -250,40 +267,47 @@
         </div>
       </section>
 
-      <!-- About Section -->
-      <section class="about-section">
+      <!-- Gallery Section -->
+      <section class="about-section-two">
         <div class="auto-container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="image-wrapper">
-                <div class="image-one">
-                  <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
-                    data-src="/tt2/images/resource/image-2.png" alt="">
-                </div>
-                <div class="image-two wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms" style="max-width: 190px;">
-                  <!-- <div class="caption">F.</div> -->
-                  <div class="image-outer"><img class="lazy-image owl-lazy"
-                      src="/tt2/images/resource/image-spacer-for-validation.png"
-                      data-src="/tt2/images/resource/image-3.png" alt=""></div>
-                </div>
+            <div class="row align-items-center">
+              <div class="col-lg-12">
+                  <div class="content-box">
+                      <div class="sec-title text-center">
+                          <div class="sub-title">About Us</div>
+                          <h2>友好的用戶介面</h2>
+                          <div>不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-12">
+                  <div class="image-wrapper">
+                      <div class="image-one">
+                        <div id="about-img" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme1.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme2.png" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="/tt2/images/resource/theme3.png" alt="Third slide">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#about-img"" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#about-img"" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="content-box">
-                <div class="sec-title">
-                  <div class="sub-title">TOP Trader 2</div>
-                  <h3>交易全球期貨的最佳網頁版程式<br>帶給您最佳的交易體驗</h3>
-                  <div class="text">
-                    <p>TT2 是一個全球期貨交易平臺</p>
-                    <p>它提供了用於全面價格分析的優良工具， 使用TT2網上交易平台WebTrader</p>
-                    <p>它能從任何流覽器和作業系統(Windows, Mac, Linux)與任裝置隨時隨地在全球進行交易與豐富的交易功能</p>
-                    <p>您只需要登錄平台頁面即可進行交易，省卻下載和安裝程式的繁瑣流程。享受便捷的圖形交易體驗</p>
-                    </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -424,55 +448,50 @@
         </div>
       </section>
 
-      <!-- Gallery Section -->
-      <section class="about-section-two">
+      <!-- About Section -->
+      <section class="about-section">
         <div class="auto-container">
-            <div class="row align-items-center">
-              <div class="col-lg-12">
-                  <div class="content-box">
-                      <div class="sec-title text-center">
-                          <div class="sub-title">About Us</div>
-                          <h2>友好的用戶介面</h2>
-                          <div>不論是桌面版或移動裝置都可自行選擇習慣的版面與顏色，並提供多種版面選擇</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-12">
-                  <div class="image-wrapper">
-                      <div class="image-one">
-                        <div id="about-img" class="carousel slide" data-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img class="d-block w-100" src="/tt2/images/resource/theme1.png" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="/tt2/images/resource/theme2.png" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="/tt2/images/resource/theme3.png" alt="Third slide">
-                            </div>
-                          </div>
-                          <a class="carousel-control-prev" href="#about-img"" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="carousel-control-next" href="#about-img"" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </div>
-                      </div>
-                  </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="image-wrapper">
+                <div class="image-one">
+                  <img class="lazy-image owl-lazy" src="/tt2/images/resource/image-spacer-for-validation.png"
+                    data-src="/tt2/images/resource/image-2.png" alt="">
+                </div>
+                <div class="image-two wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms" style="max-width: 190px;">
+                  <!-- <div class="caption">F.</div> -->
+                  <div class="image-outer"><img class="lazy-image owl-lazy"
+                      src="/tt2/images/resource/image-spacer-for-validation.png"
+                      data-src="/tt2/images/resource/image-3.png" alt=""></div>
+                </div>
               </div>
             </div>
+            <div class="col-lg-6">
+              <div class="content-box">
+                <div class="sec-title">
+                  <div class="sub-title">TOP Trader 2</div>
+                  <h3>交易全球期貨的最佳網頁版程式<br>帶給您最佳的交易體驗</h3>
+                  <div class="text">
+                    <p>TT2 是一個全球期貨交易平臺</p>
+                    <p>它提供了用於全面價格分析的優良工具， 使用TT2網上交易平台WebTrader</p>
+                    <p>它能從任何流覽器和作業系統(Windows, Mac, Linux)與任裝置隨時隨地在全球進行交易與豐富的交易功能</p>
+                    <p>您只需要登錄平台頁面即可進行交易，省卻下載和安裝程式的繁瑣流程。享受便捷的圖形交易體驗</p>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+
 
       <!-- Video Section -->
       <section class="video-section" style="background-image: url(/tt2/images/background/image-5.jpg);">
         <div class="auto-container">
           <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-            <a href="http://t1789.cc/" class="overlay-link ripple" target="_blank"><span class="fas fa-play"></span></a>
+            <a data-toggle="modal" data-target=".modal-login"><span class="fas fa-play"></span></a>
           </div>
           <div class="sec-title light text-center">
             <div class="sub-title">Start now</div>
