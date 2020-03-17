@@ -390,3 +390,28 @@
     }
   }
 }
+.modal-body {
+  color: #fff;
+  .modal-theme-title {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 16px;
+  }
+  .modal-theme-img {
+    + .modal-theme-title {
+      padding: 36px 0 16px;
+    }
+  }
+  .mobile {
+    display: flex;
+    padding-top: 36px;
+    .modal-theme-group {
+      max-width: 368px;
+      padding: 1%;
+      margin: auto;
+      .modal-theme-title {
+        height: 70px;
+      }
+    }
+  }
+}

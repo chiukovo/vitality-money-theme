@@ -21,24 +21,6 @@
       </div>
       <!-- Main Header -->
       <header class="main-header">
-        <!-- Header Top -->
-        <!-- <div class="header-top">
-          <div class="auto-container">
-            <div class="inner">
-              <div class="top-left">
-                <!--Logo--
-                <div class="logo-box">
-                  <div class="logo"><a href="/"><img src="/tt2/images/logo.png" alt=""></a></div>
-                </div>
-              </div>
-
-              <div class="top-right">
-                <a class="theme-btn btn-style-two" data-toggle="modal" data-target=".modal-login"><span class="btn-title">登入</span></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <!-- Header Upper -->
         <div class="header-upper">
           <div class="auto-container">
@@ -97,9 +79,9 @@
                       <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
                       <li class="dropdown"><a href="#">交易平台</a>
                         <ul>
-                          <li><a :href="tt2_url">TT2交易平台</a></li>
-                          <li><a :href="horse_url">金融家交易平台</a></li>
-                          <li><a :href="dt_url">好神期交易平台</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-info-tt2">TT2交易平台</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-info-horse">金融家交易平台</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-info-dt">好神期交易平台</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a href="#">下載</a>
@@ -616,41 +598,117 @@
         </div>
       </div>
     </div>
-    <div class="modal fade modal-info" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
+    <div class="modal fade modal-info-tt2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">平台介紹</h5>
+            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">TT2 交易平台介紹</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel" data-slide-to="1"></li>
-                <li data-target="#carousel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="/tt2/images/banner/banner1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="/tt2/images/banner/banner2.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="/tt2/images/banner/banner3.jpg" alt="First slide">
+            <div class="pc">
+              <div class="modal-theme-title">自訂買賣訊號</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-1.png">
+              </div>
+              <div class="modal-theme-title">2套專業技術指標</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-2.png">
+              </div>
+              <div class="modal-theme-title">可選周期即時壓力支撐</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-3.png">
+              </div>
+              <div class="modal-theme-title">K線型態分析</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-4.png">
+              </div>
+              <div class="modal-theme-title">即時價差資訊</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-5.png">
+              </div>
+              <div class="modal-theme-title">停損利可選擇點位與行情輸入</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-6.png">
+              </div>
+              <div class="modal-theme-title">外資法人未平倉指標  與 價差指標</div>
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/tt2-7.png">
+              </div>
+            </div>
+            <div class="mobile">
+              <div class="modal-theme-group">
+                <div class="modal-theme-title">好用的捷徑  讓您交易更方便</div>
+                <div class="modal-theme-img">
+                  <img src="/tt2/images/modalinfo/tt2-m1.png">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="modal-theme-group">
+                <div class="modal-theme-title">隱藏清單裡 隨時都可知道損益<br>設定同損利 改價等功能</div>
+                <div class="modal-theme-img">
+                  <img src="/tt2/images/modalinfo/tt2-m2.png">
+                </div>
+              </div>
+              <div class="modal-theme-group">
+                <div class="modal-theme-title">隨時監控總損益</div>
+                <div class="modal-theme-img">
+                  <img src="/tt2/images/modalinfo/tt2-m3.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modal-info-horse" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">金融家 交易平台介紹</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pc">
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/horse-1.png">
+              </div>
+            </div>
+            <div class="mobile">
+              <div class="modal-theme-group">
+                <div class="modal-theme-img">
+                  <img src="/tt2/images/modalinfo/horse-m1.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modal-info-dt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">金融家 交易平台介紹</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pc">
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/dt-1.png">
+              </div>
+            </div>
+            <div class="mobile">
+              <div class="modal-theme-group">
+                <div class="modal-theme-img">
+                  <img src="/tt2/images/modalinfo/dt-m1.png">
+                </div>
+              </div>
             </div>
           </div>
         </div>
