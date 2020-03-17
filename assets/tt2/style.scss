@@ -416,4 +416,36 @@
       }
     }
   }
+  .mobile {
+    display: flex;
+    padding-top: 36px;
+    .modal-theme-group {
+      max-width: 368px;
+      padding: 1%;
+      margin: auto;
+      .modal-theme-title {
+        height: 70px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    .mobile {
+      border: 1px solid red;
+      display: block;
+      .modal-theme-group {
+        .modal-theme-title {
+          height: auto;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1141px) and (max-width: 1200px) {
+    .mobile {
+      .modal-theme-group {
+        .modal-theme-title {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }
