@@ -3,6 +3,7 @@
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="font-weight-bold modal-title" id="modal-title"></h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
         </div>
         <div class="modal-body">
@@ -51,6 +52,8 @@ export default {
 
     $('.modal-menu').on('shown.bs.modal', function (event) {
       const type = $(event.relatedTarget).attr('data-field')
+      const text = $(event.relatedTarget).text()
+      $('#modal-title').text(text)
 
       if (_this.target_type != _this.menu_type || _this.target_type == '') {
         _this.target_type = type
