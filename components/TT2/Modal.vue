@@ -16,7 +16,7 @@
                 </thead>
                 <tbody>
                   <tr v-for="body in item.body">
-                    <td v-for="detail in body" :colspan="detail.colspan" :rowspan="detail.rowspan">{{ detail.content }}</td>
+                    <td v-for="detail in body" :colspan="detail.colspan" :rowspan="detail.rowspan">{{ strReplace(detail.content) }}</td>
                   </tr>
                 </tbody>
               </table>
@@ -54,6 +54,9 @@ export default {
       .then(response => {
         _this.items = response.data
       })
+    },
+    strReplace(str) {
+      return str.replace('</td>', '')
     }
   }
 }
