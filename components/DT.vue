@@ -23,7 +23,7 @@
                             </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" id="searchOpen">
+                                <a href="#" onclick="return false;" id="searchOpen">
                                 <i class="ti-search"></i>
                             </a>
                             </li>
@@ -45,14 +45,14 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-													<li class="nav-item dropdown active"><a class="nav-link" href="#">首頁</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">好神期交易系統</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">關於我們</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">語言選擇</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">意見調查</a></li>
-													<li class="nav-item"><a class="nav-link" href="#">註冊</a></li>
+													<li class="nav-item dropdown active"><a class="nav-link" href="#" onclick="return false;">首頁</a></li>
+													<li class="nav-item"><a class="nav-link" href="#" onclick="return false;">好神期交易系統</a></li>
+													<li class="nav-item"><a class="nav-link" href="#" onclick="return false;">關於我們</a></li>
+													<li class="nav-item"><a class="nav-link" href="#" onclick="return false;">語言選擇</a></li>
+													<li class="nav-item"><a class="nav-link" href="#" onclick="return false;">意見調查</a></li>
+													<li class="nav-item"><a class="nav-link" href="#" onclick="return false;">註冊</a></li>
 													<li class="nav-item">
-														<a class="nav-link btn btn-primary btn-sm" href="#">登入</a>
+														<a class="nav-link btn btn-primary btn-sm" href="#" onclick="return false;">登入</a>
 													</li>
 												</ul>
                     </div>
@@ -63,7 +63,7 @@
 
     <!-- Search Form -->
     <div class="search-form">
-        <a href="#" class="close" id="searchClose">
+        <a href="#" onclick="return false;" class="close" id="searchClose">
         <i class="ti-close"></i>
     </a>
         <div class="container">
@@ -94,7 +94,7 @@
                                 <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     <br> incididunt ut labore et dolore magna aliqua.
                                 </p>
-                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
+                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                                 <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     <br> incididunt ut labore et dolore magna aliqua.
                                 </p>
-                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
+                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                 <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     <br> incididunt ut labore et dolore magna aliqua.
                                 </p>
-                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
+                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                                 <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     <br> incididunt ut labore et dolore magna aliqua.
                                 </p>
-                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" class="btn btn-outline text-uppercase">more details</a>
+                                <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                                     <i class="text-primary mr-2 ti-arrow-circle-right"></i>IT Control Solutions</li>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary mt-4">Explore More</a>
+                        <a href="#" onclick="return false;" class="btn btn-primary mt-4">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -613,7 +613,7 @@
                     <h3 class="text-white">Biztrox give the smart solution for your business</h3>
                 </div>
                 <div class="col-lg-6 text-lg-right align-self-center">
-                    <a href="#" class="btn btn-light">GET AN QUOTE</a>
+                    <a href="#" onclick="return false;" class="btn btn-light">GET AN QUOTE</a>
                 </div>
             </div>
         </div>
@@ -711,25 +711,25 @@
     <section class="bg-white py-4">
         <div class="container">
             <div class="client-logo-slider align-self-center">
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png"
                     alt="client-logo"></a>
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png"
+                <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png"
                     alt="client-logo"></a>
             </div>
         </div>
@@ -749,22 +749,22 @@
                             <!-- social icon -->
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="#">
+                                    <a class="social-icon-outline" href="#" onclick="return false;">
                                     <i class="ti-facebook"></i>
                                 </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="#">
+                                    <a class="social-icon-outline" href="#" onclick="return false;">
                                     <i class="ti-twitter-alt"></i>
                                 </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="#">
+                                    <a class="social-icon-outline" href="#" onclick="return false;">
                                     <i class="ti-vimeo-alt"></i>
                                 </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="social-icon-outline" href="#">
+                                    <a class="social-icon-outline" href="#" onclick="return false;">
                                     <i class="ti-linkedin"></i>
                                 </a>
                                 </li>
@@ -776,7 +776,7 @@
                         <h4 class="text-white mb-4">Services</h4>
                         <ul class="footer-links">
                             <li>
-                                <a href="#">Company History</a>
+                                <a href="#" onclick="return false;">Company History</a>
                             </li>
                             <li>
                                 <a href="about.html">About Us</a>
@@ -788,7 +788,7 @@
                                 <a href="service.html">Service</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#" onclick="return false;">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -797,7 +797,7 @@
                         <h4 class="text-white mb-4">Quick Link</h4>
                         <ul class="footer-links">
                             <li>
-                                <a href="#">Company History</a>
+                                <a href="#" onclick="return false;">Company History</a>
                             </li>
                             <li>
                                 <a href="about-2.html">About Us</a>
@@ -809,7 +809,7 @@
                                 <a href="service-2.html">Service</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#" onclick="return false;">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -840,16 +840,16 @@
                     <div class="col-lg-6 col-md-7">
                         <ul class="list-inline text-center text-md-right">
                             <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                <a class="font-secondary text-white" href="#">Legal</a>
+                                <a class="font-secondary text-white" href="#" onclick="return false;">Legal</a>
                             </li>
                             <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                <a class="font-secondary text-white" href="#">Sitemap</a>
+                                <a class="font-secondary text-white" href="#" onclick="return false;">Sitemap</a>
                             </li>
                             <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                <a class="font-secondary text-white" href="#">Privacy Policy</a>
+                                <a class="font-secondary text-white" href="#" onclick="return false;">Privacy Policy</a>
                             </li>
                             <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
-                                <a class="font-secondary text-white" href="#">Terms &amp; Conditions</a>
+                                <a class="font-secondary text-white" href="#" onclick="return false;">Terms &amp; Conditions</a>
                             </li>
                         </ul>
                     </div>

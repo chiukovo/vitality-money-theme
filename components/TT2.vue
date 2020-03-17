@@ -36,62 +36,62 @@
                   <div class="collapse navbar-collapse show clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
-                      <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='stockq'" data-field="stockq">國際指數</a></li>
-                      <li class="dropdown"><a href="#">經濟數據</a>
+                      <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='stockq'" data-field="stockq">國際指數</a></li>
+                      <li class="dropdown"><a href="#" onclick="return false;">經濟數據</a>
                         <ul>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='worldstats'" data-field="worldstats">經濟總覽</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='calendar'" data-field="calendar">經濟指標</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='rate'" data-field="rate">全球利率</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='gdp'" data-field="gdp">生產GDP</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='treasury'" data-field="treasury">美國公債</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='bondrate'" data-field="bondrate">各國公債</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='reserve'" data-field="reserve">外匯存底</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='aaiisurvey'" data-field="aaiisurvey">多空調查</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='worldstats'" data-field="worldstats">經濟總覽</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='calendar'" data-field="calendar">經濟指標</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='rate'" data-field="rate">全球利率</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='gdp'" data-field="gdp">生產GDP</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='treasury'" data-field="treasury">美國公債</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='bondrate'" data-field="bondrate">各國公債</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='reserve'" data-field="reserve">外匯存底</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='aaiisurvey'" data-field="aaiisurvey">多空調查</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown"><a href="#">期貨報告</a>
+                      <li class="dropdown"><a href="#" onclick="return false;">期貨報告</a>
                         <ul>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='futContractsDate'" data-field="futContractsDate">三大法人</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='largeTraderFutQry'" data-field="largeTraderFutQry">大額交易</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='djiax5'" data-field="djiax5">道瓊工業</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='nasdaq100mini'" data-field="nasdaq100mini">納斯達克</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='sp500'" data-field="sp500">S&P500</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='nikkei'" data-field="nikkei">日經</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='gold'" data-field="gold">黃金</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='silver'" data-field="silver">銀</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='euro'" data-field="euro">歐元</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='vix'" data-field="vix">恐慌指數</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='futContractsDate'" data-field="futContractsDate">三大法人</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='largeTraderFutQry'" data-field="largeTraderFutQry">大額交易</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='djiax5'" data-field="djiax5">道瓊工業</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='nasdaq100mini'" data-field="nasdaq100mini">納斯達克</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='sp500'" data-field="sp500">S&P500</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='nikkei'" data-field="nikkei">日經</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='gold'" data-field="gold">黃金</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='silver'" data-field="silver">銀</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='euro'" data-field="euro">歐元</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='vix'" data-field="vix">恐慌指數</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown"><a href="#">市場動態</a>
+                      <li class="dropdown"><a href="#" onclick="return false;">市場動態</a>
                         <ul>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='return'" data-field="return">股市排行</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='lowmarket'" data-field="lowmarket">相對低檔</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='highmarket'" data-field="highmarket">相對高檔</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='indexfuture'" data-field="indexfuture">國際指數</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='commodity'" data-field="commodity">原物料</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='bondindex'" data-field="bondindex">債卷指數</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='return'" data-field="return">股市排行</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='lowmarket'" data-field="lowmarket">相對低檔</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='highmarket'" data-field="highmarket">相對高檔</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='indexfuture'" data-field="indexfuture">國際指數</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='commodity'" data-field="commodity">原物料</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='bondindex'" data-field="bondindex">債卷指數</a></li>
                         </ul>
                       </li>
-                      <li><a href="#" data-toggle="modal" data-target=".modal-file" @click.prevent="getApiFileData('news'); api_in = true" data-field="news">新聞</a></li>
-                      <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='currency'" data-field="currency">匯率</a></li>
-                      <li><a href="#" data-toggle="modal" data-target=".modal-file" @click.prevent="getApiFileData('hcalendar'); api_in = true" data-field="hcalendar">行事曆</a></li>
-                      <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
-                      <li class="dropdown"><a href="#">交易平台</a>
+                      <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-file" @click.prevent="getApiFileData('news'); api_in = true" data-field="news">新聞</a></li>
+                      <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-menu" @click.prevent="menu_type='currency'" data-field="currency">匯率</a></li>
+                      <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-file" @click.prevent="getApiFileData('hcalendar'); api_in = true" data-field="hcalendar">行事曆</a></li>
+                      <!-- <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
+                      <li class="dropdown"><a href="#" onclick="return false;">交易平台</a>
                         <ul>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-info-tt2">TT2交易平台</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-info-horse">金融家交易平台</a></li>
-                          <li><a href="#" data-toggle="modal" data-target=".modal-info-dt">好神期交易平台</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-info-tt2">TT2交易平台</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-info-horse">金融家交易平台</a></li>
+                          <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-info-dt">好神期交易平台</a></li>
                         </ul>
                       </li>
-                      <li class="dropdown"><a href="#">下載</a>
+                      <li class="dropdown"><a href="#" onclick="return false;">下載</a>
                         <ul>
                             <li><a href="https://anydesk.com/zhs" target="_blank">AnyDesk</a></li>
                             <li><a href="https://www.teamviewer.com/tw/download/windows/" target="_blank">TeamViewer</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">語言切換</a></li>
-                      <li><a href="#">意見調查</a></li>
+                      <li><a href="#" onclick="return false;">語言切換</a></li>
+                      <li><a href="#" onclick="return false;">意見調查</a></li>
                       <li><a :href="tt2_url">註冊</a></li>
                       <li><a class="button-login" data-toggle="modal" data-target=".modal-login">
                         <span>登入</span>
@@ -159,11 +159,11 @@
             <br>
             <h3>TOP Trader 2</h3>
             <ul class="recent-searches">
-              <li><a href="#">Finance</a></li>
-              <li><a href="#">Idea</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Growth</a></li>
-              <li><a href="#">Plan</a></li>
+              <li><a href="#" onclick="return false;">Finance</a></li>
+              <li><a href="#" onclick="return false;">Idea</a></li>
+              <li><a href="#" onclick="return false;">Service</a></li>
+              <li><a href="#" onclick="return false;">Growth</a></li>
+              <li><a href="#" onclick="return false;">Plan</a></li>
             </ul>
           </div>
 
@@ -630,7 +630,7 @@
                   <label for="save_account">記住帳號</label>
                 </div>
                 <div class="form-group-col text-right">
-                  <a href="#">忘記密碼</a>
+                  <a href="#" onclick="return false;">忘記密碼</a>
                 </div>
               </div>
             </div>
