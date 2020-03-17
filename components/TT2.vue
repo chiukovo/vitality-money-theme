@@ -54,45 +54,45 @@
                   <div class="collapse navbar-collapse show clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
-                      <li><a href="#">國際指數</a></li>
+                      <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='stockq'">國際指數</a></li>
                       <li class="dropdown"><a href="#">經濟數據</a>
                         <ul>
-                          <li><a href="#">經濟總覽</a></li>
-                          <li><a href="#">經濟指標</a></li>
-                          <li><a href="#">全球利率</a></li>
-                          <li><a href="#">生產GDP</a></li>
-                          <li><a href="#">美國公債</a></li>
-                          <li><a href="#">各國公債</a></li>
-                          <li><a href="#">外匯存底</a></li>
-                          <li><a href="#">多空調查</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='worldstats'">經濟總覽</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='calendar'">經濟指標</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='rate'">全球利率</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='gdp'">生產GDP</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='treasury'">美國公債</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='bondrate'">各國公債</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='reserve'">外匯存底</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='aaiisurvey'">多空調查</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a href="#">期貨報告</a>
                         <ul>
-                          <li><a href="#">三大法人</a></li>
-                          <li><a href="#">大額交易</a></li>
-                          <li><a href="#">道瓊工業</a></li>
-                          <li><a href="#">納斯達克</a></li>
-                          <li><a href="#">S&P500</a></li>
-                          <li><a href="#">日經</a></li>
-                          <li><a href="#">黃金</a></li>
-                          <li><a href="#">銀</a></li>
-                          <li><a href="#">歐元</a></li>
-                          <li><a href="#">恐慌指數</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='futContractsDate'">三大法人</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='largeTraderFutQry'">大額交易</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='djiax5'">道瓊工業</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='nasdaq100mini'">納斯達克</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='sp500'">S&P500</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='nikkei'">日經</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='gold'">黃金</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='silver'">銀</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='euro'">歐元</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='vix'">恐慌指數</a></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a href="#">市場動態</a>
                         <ul>
-                          <li><a href="#">股市排行</a></li>
-                          <li><a href="#">相對低檔</a></li>
-                          <li><a href="#">相對高檔</a></li>
-                          <li><a href="#">國際指數</a></li>
-                          <li><a href="#">原物料</a></li>
-                          <li><a href="#">債卷指數</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='return'">股市排行</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='lowmarket'">相對低檔</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='highmarket'">相對高檔</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='indexfuture'">國際指數</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='commodity'">原物料</a></li>
+                          <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='bondindex'">債卷指數</a></li>
                         </ul>
                       </li>
                       <li><a href="#">新聞</a></li>
-                      <li><a href="#">匯率</a></li>
+                      <li><a href="#" data-target=".modal-menu" @click="menu_type='currency'">匯率</a></li>
                       <li><a href="#">行事曆</a></li>
                       <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
                       <li class="dropdown"><a href="#">交易平台</a>
@@ -102,7 +102,7 @@
                           <li><a :href="dt_url">好神期交易平台</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">下載</a>
+                      <li class="dropdown"><a href="#">下載</a>
                         <ul>
                             <li><a href="https://anydesk.com/zhs" target="_blank">AnyDesk</a></li>
                             <li><a href="https://www.teamviewer.com/tw/download/windows/" target="_blank">TeamViewer</a></li>
@@ -569,7 +569,7 @@
 
     </div>
     <!--End pagewrapper-->
-
+    <Modal :menu_type="menu_type"></Modal>
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fal fa-arrow-circle-up"></span></div>
     <!-- Modal Login/Register-->
@@ -661,6 +661,7 @@
 
 <script>
   import '@/assets/tt2/style.scss'
+  import Modal from "~/components/TT2/Modal"
   import axios from 'axios'
   import qs from 'qs'
   export default {
@@ -762,9 +763,13 @@
         dt_url: '',
         horse_url: '',
         tt2_url: '',
+        menu_type: '',
         com_array: [],
         com_detail_array: [],
       }
+    },
+    components: {
+      Modal
     },
     mounted() {
       this.loading = false

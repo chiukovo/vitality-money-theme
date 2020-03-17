@@ -9318,3 +9318,42 @@ img.lazy-image.loaded {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+.item-table thead tr, .item-table tbody {
+    display: block;
+}
+.item-table th, .item-table td {
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.item-table th {
+    color: #fff;
+    width: 80px;
+    min-width: 80px;
+    background-color: rgb(46, 117, 185);
+}
+.item-table td {
+    width: 80px;
+    min-width: 80px;
+    border: 0.1px solid #EEE;
+}
+.item-table tbody {
+    overflow: auto;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.item-table thead th{
+    border: 0.1px solid #EEE;
+}
+.item-table thead{
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.item-table tbody tr:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+.item-table tbody tr:nth-child(odd) {
+    background-color: #E0E0E0;
+}
