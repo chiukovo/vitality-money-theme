@@ -55,18 +55,51 @@
                     <ul class="navigation clearfix">
                       <li><a href="/">首頁</a></li>
                       <li><a href="#">國際指數</a></li>
-                      <li><a href="#">經濟數據</a></li>
-                      <li><a href="#">期貨報告</a></li>
-                      <li><a href="#">市場動態</a></li>
+                      <li class="dropdown"><a href="#">經濟數據</a>
+                        <ul>
+                          <li><a href="#">經濟總覽</a></li>
+                          <li><a href="#">經濟指標</a></li>
+                          <li><a href="#">全球利率</a></li>
+                          <li><a href="#">生產GDP</a></li>
+                          <li><a href="#">美國公債</a></li>
+                          <li><a href="#">各國公債</a></li>
+                          <li><a href="#">外匯存底</a></li>
+                          <li><a href="#">多空調查</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a href="#">期貨報告</a>
+                        <ul>
+                          <li><a href="#">三大法人</a></li>
+                          <li><a href="#">大額交易</a></li>
+                          <li><a href="#">道瓊工業</a></li>
+                          <li><a href="#">納斯達克</a></li>
+                          <li><a href="#">S&P500</a></li>
+                          <li><a href="#">日經</a></li>
+                          <li><a href="#">黃金</a></li>
+                          <li><a href="#">銀</a></li>
+                          <li><a href="#">歐元</a></li>
+                          <li><a href="#">恐慌指數</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a href="#">市場動態</a>
+                        <ul>
+                          <li><a href="#">股市排行</a></li>
+                          <li><a href="#">相對低檔</a></li>
+                          <li><a href="#">相對高檔</a></li>
+                          <li><a href="#">國際指數</a></li>
+                          <li><a href="#">原物料</a></li>
+                          <li><a href="#">債卷指數</a></li>
+                        </ul>
+                      </li>
                       <li><a href="#">新聞</a></li>
                       <li><a href="#">匯率</a></li>
                       <li><a href="#">行事曆</a></li>
                       <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
                       <li class="dropdown"><a href="#">交易平台</a>
                         <ul>
-                            <li><a href="#">TT2交易平台</a></li>
-                            <li><a href="#">金融家交易平台</a></li>
-                            <li><a href="#">好神期交易平台</a></li>
+                          <li><a :href="tt2_url">TT2交易平台</a></li>
+                          <li><a :href="horse_url">金融家交易平台</a></li>
+                          <li><a :href="dt_url">好神期交易平台</a></li>
                         </ul>
                       </li>
                       <li><a href="#">下載</a>
