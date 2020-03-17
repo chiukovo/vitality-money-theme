@@ -370,10 +370,12 @@
 }
 
 .modal1 {
+  font-size: 20px;
   display: flex;
   flex-wrap: wrap;
   > div {
     float: left;
+    margin: 10px;
   }
   .item-table {
     thead {

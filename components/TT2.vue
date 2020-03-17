@@ -73,9 +73,9 @@
                           <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='bondindex'">債卷指數</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">新聞</a></li>
-                      <li><a href="#" data-target=".modal-menu" @click="menu_type='currency'">匯率</a></li>
-                      <li><a href="#">行事曆</a></li>
+                      <li><a href="#" data-toggle="modal" data-target=".modal-file" @click="getApiFileData('news')">新聞</a></li>
+                      <li><a href="#" data-toggle="modal" data-target=".modal-menu" @click="menu_type='currency'">匯率</a></li>
+                      <li><a href="#" data-toggle="modal" data-target=".modal-file" @click="getApiFileData('hcalendar')">行事曆</a></li>
                       <!-- <li><a href="#" data-toggle="modal" data-target=".modal-info">平台介紹</a></li> -->
                       <li class="dropdown"><a href="#">交易平台</a>
                         <ul>
@@ -550,6 +550,56 @@
       </footer>
 
     </div>
+    <!--file-->
+    <div class="modal modal-file fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-file" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal1">
+              <!--news-->
+              <div v-if="news.length > 0">
+                <table class="item-table">
+                  <tbody>
+                    <tr v-for="list in news">
+                      <td>{{ list.time }} ({{ list.source }})</td>
+                      <td>{{ list.content }}</td>
+                      <td>
+                        <img :src="list.img" alt="">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--calendar-->
+              <div v-if="calendar.length > 0">
+                <table class="item-table">
+                  <thead>
+                    <tr>
+                      <th v-for="header in calendar[0].header">{{ header }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="list in calendar[0].body">
+                      <td>{{ list[0] }}</td>
+                      <td>{{ list[1] }}</td>
+                      <td>{{ list[2] }}</td>
+                      <td>{{ list[3] }}</td>
+                      <td>{{ list[4] }}</td>
+                      <td>{{ list[5] }}</td>
+                      <td>{{ list[6] }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--file end-->
     <!--End pagewrapper-->
     <Modal :menu_type="menu_type"></Modal>
     <!--Scroll to top-->
@@ -824,6 +874,8 @@
         menu_type: '',
         com_array: [],
         com_detail_array: [],
+        news: [],
+        calendar: [],
       }
     },
     components: {
@@ -848,6 +900,31 @@
       window.setInterval(( () => this.getCominInfoDetail() ), 10000)
     },
     methods: {
+      getApiFileData(type) {
+        const _this = this
+        this.news = []
+        this.calendar = []
+        let target = type
+
+        if (target == 'news') {
+          let tzoffset = (new Date()).getTimezoneOffset() * 60000;
+          let today = (new Date(Date.now() - tzoffset))
+          const nowDate = today.toISOString().substring(0, 10).split('-').join('')
+
+          target = target + nowDate
+        }
+
+        axios.post(process.env.NUXT_ENV_API_URL + "/get_file", qs.stringify({
+          file: target,
+        }))
+        .then(response => {
+          if (type == 'news') {
+            _this.news = response.data
+          } else {
+            _this.calendar = response.data
+          }
+        })
+      },
       getCominInfo() {
         const _this = this
 
