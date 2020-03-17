@@ -1,24 +1,26 @@
 <template>
   <div class="modal modal-menu fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-menu" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
       <div class="modal-content">
         <div class="modal-header">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
         </div>
         <div class="modal-body">
-          <div v-for="item in items">
-            <table class="item-table">
-              <thead>
-                <tr>
-                  <th :colspan="item.header.colspan" :rowspan="item.header.rowspan">{{ item.header.title }}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="body in item.body">
-                  <td v-for="detail in body" :colspan="detail.colspan" :rowspan="detail.rowspan">{{ detail.content }}</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="modal1">
+            <div v-for="item in items">
+              <table class="item-table">
+                <thead>
+                  <tr>
+                    <th :colspan="item.header.colspan" :rowspan="item.header.rowspan">{{ item.header.title }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="body in item.body">
+                    <td v-for="detail in body" :colspan="detail.colspan" :rowspan="detail.rowspan">{{ detail.content }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
