@@ -35,21 +35,36 @@ import qs from 'qs'
 export default {
   data () {
     return {
-      items: []
+      items: [],
+      target_type: '',
     }
   },
   props: ['menu_type'],
   watch: {
     menu_type(type) {
+      this.target_type = type
       this.getData()
     }
+  },
+  mounted() {
+    const _this = this
+
+    $('.modal-menu').on('shown.bs.modal', function (event) {
+      const type = $(event.relatedTarget).attr('data-field')
+
+      if (_this.target_type != _this.menu_type || _this.target_type == '') {
+        _this.target_type = type
+        _this.items = []
+        _this.getData()
+      }
+    })
   },
   methods: {
     getData() {
       const _this = this
 
       axios.post(process.env.NUXT_ENV_API_URL + "/get_file", qs.stringify({
-        file: this.menu_type,
+        file: this.target_type,
       }))
       .then(response => {
         _this.items = response.data
