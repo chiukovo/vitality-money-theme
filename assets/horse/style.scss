@@ -48,12 +48,58 @@ html, body, .preloader {
     color: #fff;
   }
 }
-
-.modal.login {
-  .modal-dialog {
-    max-width: 320px !important;
+.modal-info {
+  .modal-content {
+    padding: 20px;
+  }
+  .modal-header {
+    padding-bottom: 20px;
+  }
+  .modal-theme-title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 16px;
+  }
+  .modal-theme-img {
+    + .modal-theme-title {
+      padding: 36px 0 16px;
+    }
+  }
+  .mobile {
+    display: flex;
+    padding-top: 36px;
+    .modal-theme-group {
+      max-width: 368px;
+      padding: 1%;
+      margin: auto;
+      .modal-theme-title {
+        height: 70px;
+      }
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    .mobile {
+      border: 1px solid red;
+      display: block;
+      .modal-theme-group {
+        .modal-theme-title {
+          height: auto;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1141px) and (max-width: 1200px) {
+    .mobile {
+      .modal-theme-group {
+        .modal-theme-title {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
+
 @media (min-width: 1200px) {
   .modal-login-register .modal-content {
     padding-top: 45px !important;

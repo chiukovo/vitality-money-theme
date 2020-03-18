@@ -416,18 +416,6 @@
       }
     }
   }
-  .mobile {
-    display: flex;
-    padding-top: 36px;
-    .modal-theme-group {
-      max-width: 368px;
-      padding: 1%;
-      margin: auto;
-      .modal-theme-title {
-        height: 70px;
-      }
-    }
-  }
   @media only screen and (max-width: 1140px) {
     .mobile {
       border: 1px solid red;

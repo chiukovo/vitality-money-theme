@@ -36,8 +36,8 @@
                     <li class="rd-megamenu-item">
                       <p class="rd-megamenu-title">交易平台</p>
                       <ul class="rd-megamenu-list">
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="horse_url">金融家交易系統</a></li>
-                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" :href="dt_url">好神期交易系統</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link" href="#" data-toggle="modal" data-target="#modal-horse">金融家交易系統</a></li>
+                        <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"  href="#" data-toggle="modal" data-target="#modal-dt">好神期交易系統</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -490,7 +490,7 @@
   </div>
   <!-- Modal Login/Register-->
   <div class="modal modal-login-register login fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-login-register-label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-sm" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="font-weight-bold modal-title" id="modal-login-register-label">登入系統</h5>
@@ -533,6 +533,54 @@
           <a class="button-facebook button-icon button-icon-left" href="#"><span class="icon fa fa-facebook"></span>Facebook</a>
           <a class="button-google button-icon button-icon-left" href="#"><span class="icon fa fa-google-plus"></span>Google+</a>
         </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-info" id="modal-horse" tabindex="-1" role="dialog" aria-labelledby="modal-horse" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="font-weight-bold modal-title" id="modal-info-horse">金融家交易系統</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="pc">
+            <div class="modal-theme-img">
+              <img src="/tt2/images/modalinfo/horse-1.png">
+            </div>
+          </div>
+          <div class="mobile">
+            <div class="modal-theme-group">
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/horse-m1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-info" id="modal-dt" tabindex="-1" role="dialog" aria-labelledby="modal-dt" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="font-weight-bold modal-title" id="modal-dt">好神期交易系統</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="pc">
+            <div class="modal-theme-img">
+              <img src="/tt2/images/modalinfo/dt-1.png">
+            </div>
+          </div>
+          <div class="mobile">
+            <div class="modal-theme-group">
+              <div class="modal-theme-img">
+                <img src="/tt2/images/modalinfo/dt-m1.png">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
