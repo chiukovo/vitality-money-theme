@@ -370,7 +370,7 @@
                   <h2>即時穩定的報價與最齊全的商品</h2>
                   <div class="text">為避免報價誤差與延遲TT2平台與國外知名報價廠商合作
  透過精密演算法呈現出與國外同步且精準的報價
-無論何時何地，您都可以在TT5網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</div>
+無論何時何地，您都可以在TT2網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策</div>
                 </div>
                 <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                   <div class="icon"><img src="/tt2/images/icons/icon-5.png" alt=""></div>
