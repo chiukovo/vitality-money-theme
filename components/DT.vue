@@ -25,7 +25,7 @@
       <div class="navigation">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" return="false">
+            <a class="navbar-brand" href="#" onclick="return false;">
             <img src="/dt/images/logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -344,7 +344,7 @@
       </div>
     </section>
     <!-- /promo-video -->
-    
+
     <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url(/dt/images/background/cta.jpg);">
       <div class="container">
         <div class="row justify-content-between">
@@ -352,7 +352,7 @@
             <h3 class="text-white">今天，好神期讓您體驗不同</h3>
           </div>
           <div class="col-lg-6 text-lg-right align-self-center">
-            <a href="#" onclick="return false;" class="btn btn-light">立即免費試用</a>
+            <a href="#" onclick="return false;" class="btn btn-light" data-toggle="modal" data-target="#modal">立即免費試用</a>
           </div>
         </div>
       </div>
@@ -416,7 +416,7 @@
                   <label for="save_account">記住帳號</label>
                 </div>
                 <div class="form-group-col text-right">
-                  <a href="#">忘記密碼</a>
+                  <a href="#" onclick="return false;">忘記密碼</a>
                 </div>
               </div>
             </div>
