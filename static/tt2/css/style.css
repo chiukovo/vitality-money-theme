@@ -1281,6 +1281,14 @@ img {
     top: 25px;
 }
 
+.web-title {
+    color: #FFFFFF;
+    font-size: 26px;
+    left: 115px;
+    position: absolute;
+    top: 35%;
+}
+
 /* Header Style Three */
 
 .main-header.header-style-three .auto-container {

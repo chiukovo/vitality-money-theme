@@ -29,6 +29,7 @@
               <div class="nav-outer clearfix">
                 <!--Mobile Navigation Toggler-->
                 <div class="logo"><a href="/"><img src="/tt2/images/logo.png" alt=""></a></div>
+                <div class="web-title">{{ title }}</div>
                 <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
 
                 <!-- Main Menu -->
@@ -300,11 +301,11 @@
                               <img class="d-block w-100" src="/tt2/images/resource/theme3.png" alt="Third slide">
                             </div>
                           </div>
-                          <a class="carousel-control-prev" href="#about-img"" role="button" data-slide="prev">
+                          <a class="carousel-control-prev" href="#about-img" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                           </a>
-                          <a class="carousel-control-next" href="#about-img"" role="button" data-slide="next">
+                          <a class="carousel-control-next" href="#about-img" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                           </a>
@@ -615,7 +616,7 @@
               <div class="form-group">
                 <div class="form-select">
                   <select v-model='type'>
-                    <option value="">TT2交易系統</option>
+                    <option value="t">TT2交易系統</option>
                     <option value="b">金融家交易系統</option>
                     <option value="d">好神期交易系統</option>
                   </select>
@@ -758,6 +759,7 @@
 </template>
 
 <script>
+  import { isMobile } from 'mobile-device-detect';
   import '@/assets/tt2/style.scss'
   import Modal from "~/components/TT2/Modal"
   import axios from 'axios'
@@ -857,7 +859,7 @@
         account: '',
         password: '',
         rememberMe: '',
-        type: 'b',
+        type: 't',
         dt_url: '',
         horse_url: '',
         tt2_url: '',
@@ -867,6 +869,7 @@
         news: [],
         calendar: [],
         api_in: false,
+        title: '',
       }
     },
     components: {
@@ -889,6 +892,7 @@
 
       //get query_cominfo
       this.getCominInfo()
+      this.getTitle()
       window.setInterval(( () => this.getCominInfoDetail() ), 10000)
 
       $('.modal-file').on('shown.bs.modal', function (event) {
@@ -925,6 +929,15 @@
           } else {
             _this.calendar = response.data
           }
+        })
+      },
+      getTitle() {
+        const _this = this
+
+        axios.get(process.env.NUXT_ENV_API_URL + "/get_title.php")
+        .then(response => {
+          _this.title = response.data.title
+          window.document.title = response.data.title
         })
       },
       getCominInfo() {
@@ -1011,12 +1024,33 @@
             account: _this.account,
             password: _this.password,
           })
-          const params = '/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
-            .URL
-          if (_this.type == 'b') {
-            location.href = _this.horse_url + params
+
+        if (result["Code"] == 2) {
+          sessionStorage.setItem("UserAccount", result["UserAccount"]);
+          sessionStorage.setItem("UserID", result["UserId"]);
+          sessionStorage.setItem("ChooseID", result["ChooseId"]);
+          sessionStorage.setItem("UserToken", result["Token"]);
+          if (!isMobile) {
+            window.location.href = "/agent/index.php"
           } else {
-            location.href = _this.dt_url + params
+            window.location.href = "/agent/mobi/index.php"
+          }
+          return
+        }
+        
+        let redir_url = window.location.href.replace('https://', '')
+        redir_url = window.location.href.replace('http://', '')
+        
+          if (_this.type == 'b') {
+            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+            location.href = `http://${_this.horse_url}.${redir_url}${params}`;
+          } else  if (_this.type == 'd') {
+            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+            location.href = `http://${_this.dt_url}.${redir_url}${params}`;
+          } else {
+            const params = (isMobile ? 'mobi/' : 'market.php')  + '?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
+              .URL
+            location.href = `http://${_this.tt2_url}.${redir_url}${params}`;
           }
         })
       }
@@ -1026,5 +1060,13 @@
 <style rel="stylesheet/scss" lang="scss">
   #__nuxt {
     display: none
+  }
+
+  .web-title {
+      color: #FFFFFF;
+      font-size: 26px;
+      left: 115px;
+      position: absolute;
+      top: 35%;
   }
 </style>

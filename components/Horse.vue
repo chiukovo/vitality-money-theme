@@ -672,13 +672,33 @@ export default {
           password: _this.password,
         })
 
-        const params = '/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
-
-        if (_this.type == 'b') {
-          location.href = _this.horse_url + params
-        } else {
-          location.href = _this.dt_url + params
+        if (result["Code"] == 2) {
+          sessionStorage.setItem("UserAccount", result["UserAccount"]);
+          sessionStorage.setItem("UserID", result["UserId"]);
+          sessionStorage.setItem("ChooseID", result["ChooseId"]);
+          sessionStorage.setItem("UserToken", result["Token"]);
+          if (!isMobile) {
+              window.location.href = "/agent/index.php"
+          } else {
+              window.location.href = "/agent/mobi/index.php"
+          }
+          return
         }
+        
+        let redir_url = window.location.href.replace('https://', '')
+        redir_url = window.location.href.replace('http://', '')
+        
+          if (_this.type == 'b') {
+            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+            location.href = `http://${_this.horse_url}.${redir_url}${params}`;
+          } else  if (_this.type == 'd') {
+            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+            location.href = `http://${_this.dt_url}.${redir_url}${params}`;
+          } else {
+            const params = (isMobile ? 'mobi/' : 'market.php')  + '?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
+              .URL
+            location.href = `http://${_this.tt2_url}.${redir_url}${params}`;
+          }
       })
     }
   },
