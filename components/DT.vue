@@ -46,7 +46,7 @@
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">關於我們</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">語言選擇</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">意見調查</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">註冊</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">註冊</a></li>
                 <li class="nav-item">
                   <a class="nav-link btn btn-primary btn-sm" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">登入</a>
                 </li>
@@ -296,7 +296,7 @@
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">我在巨匠 今年21歲 自從用了好神期交易平台 讓我有了被動收入
+                <p class="text-dark">在眾多的交易系統中 自從用了好神期交易平台 讓我有了被動收入
                   <br>謝謝好神期!</p>
                 <h4 class="font-weight-normal">陳先生</h4>
                 <h6 class="font-secondary text-color">台中 北屯區</h6>
