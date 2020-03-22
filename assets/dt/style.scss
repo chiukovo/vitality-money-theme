@@ -1,6 +1,10 @@
 $primary: #e84444;
 
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 微軟正黑體;
+}
+
 .top-header {
   .list-inline-item {
     color: #fff;
@@ -28,11 +32,13 @@ $primary: #e84444;
 
 // slider
 .hero-content {
+  font-family: 微軟正黑體;
   width: 60%;
   background-color: rgba(255, 255, 255, .8);
   padding: 2rem;
 }
 .hero-slider .slick-dots {
+  font-family: 微軟正黑體;
   bottom: -82px !important;
 }
 
