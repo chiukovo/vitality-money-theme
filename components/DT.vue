@@ -399,7 +399,6 @@
                   <span class="icon ti-angle-down"></span>
                   <select v-model='type'>
                     <option value="d">好神期交易系統</option>
-                    <option value="b">金融家交易系統</option>
                   </select>
                 </div>
               </div>
@@ -625,16 +624,30 @@
           let redir_url = window.location.href.replace('https://', '')
           redir_url = window.location.href.replace('http://', '')
         
-          if (_this.type == 'b') {
-            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
-            location.href = `http://${_this.horse_url}.${redir_url}${params}`;
-          } else  if (_this.type == 'd') {
-            const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
-            location.href = `http://${_this.dt_url}.${redir_url}${params}`;
+          if (!isMobile) {
+            if (_this.type == 'b') {
+              const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+              location.href = `http://${_this.horse_url}.${redir_url}${params}`;
+            } else  if (_this.type == 'd') {
+              const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+              location.href = `http://${_this.dt_url}.${redir_url}${params}`;
+            } else {
+              const params = 'market.php?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
+                .URL
+              location.href = `http://${_this.tt2_url}.${redir_url}${params}`;
+            }
           } else {
-            const params = (isMobile ? 'mobi/' : 'market.php')  + '?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
-              .URL
-            location.href = `http://${_this.tt2_url}.${redir_url}${params}`;
+            if (_this.type == 'b') {
+              const params = 'mobile/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+              location.href = `http://${_this.horse_url}.${redir_url}${params}`;
+            } else  if (_this.type == 'd') {
+              const params = 'mobile/go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
+              location.href = `http://${_this.dt_url}.${redir_url}${params}`;
+            } else {
+              const params = 'mobi/?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document
+                .URL
+              location.href = `http://${_this.tt2_url}.${redir_url}${params}`;
+            }
           }
         })
       }
