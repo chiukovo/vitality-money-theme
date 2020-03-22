@@ -918,6 +918,7 @@
       //remember data
       const remember = this.$store.state.localStorage.remember
       this.rememberMe = remember.me
+
       if (this.rememberMe) {
         this.account = remember.account
         this.password = remember.password
