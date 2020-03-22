@@ -3,7 +3,7 @@
     'use strict';
     document.getElementById("__nuxt").style = 'display: block'
     $('.preloader').fadeOut(700);
-    
+
     //  Search Form Open
     $('#searchOpen').on('click', function() {
         $('.search-form').addClass('open');
@@ -279,5 +279,5 @@
 
     // AOS
     AOS.init();
-  }, 200);
+  }, 500);
 })(window.jQuery);

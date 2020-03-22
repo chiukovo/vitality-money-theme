@@ -1,6 +1,13 @@
 <template>
   <div>
     <div class="page-wrapper">
+      <!-- Preloader -->
+      <div class="loader-wrap">
+          <div class="preloader"></div>
+          <div class="layer layer-one"><span class="overlay"></span></div>
+          <div class="layer layer-two"><span class="overlay"></span></div>
+          <div class="layer layer-three"><span class="overlay"></span></div>
+      </div>
       <div class="real-mneu">
         <div class="scroll-out">
           <div class="scroll-div">
@@ -182,6 +189,11 @@
               <div class="content-box">
                 <h2>Professional platform</h2>
                 <div class="text">通往全球市場的專業平台</div>
+                <div class="btn-box">
+                  <a href="#" onclick="return false;" class="theme-btn btn-style-one" data-toggle="modal" data-target=".modal-login">
+                    <span class="btn-title">-- 立即登入 --</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -194,6 +206,11 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>Simple transaction</h2>
                 <div class="text">科技讓交易變得簡單<br>優質的交易體驗</div>
+                <div class="btn-box">
+                  <a href="#" onclick="return false;" class="theme-btn btn-style-one" data-toggle="modal" data-target=".modal-login">
+                    <span class="btn-title">-- 立即登入 --</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -206,6 +223,11 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>Powerful and Secure</h2>
                 <div class="text">強大的圖表分析<br>穩定且安全的系統架構</div>
+                <div class="btn-box">
+                  <a href="#" onclick="return false;" class="theme-btn btn-style-one" data-toggle="modal" data-target=".modal-login">
+                    <span class="btn-title">-- 立即登入 --</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -218,6 +240,11 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>High performance 「H5」</h2>
                 <div class="text">全新高效能H5<br>跨平台網頁交易系統</div>
+                <div class="btn-box">
+                  <a href="#" onclick="return false;" class="theme-btn btn-style-one" data-toggle="modal" data-target=".modal-login">
+                    <span class="btn-title">-- 立即登入 --</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -230,6 +257,11 @@
                 <!-- <h3>TT2</h3> -->
                 <h2>Instant and detailed quote</h2>
                 <div class="text">即時且詳細的報價<br>讓您永遠比別人早一步掌握市場價格</div>
+                <div class="btn-box">
+                  <a href="#" onclick="return false;" class="theme-btn btn-style-one" data-toggle="modal" data-target=".modal-login">
+                    <span class="btn-title">-- 立即登入 --</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

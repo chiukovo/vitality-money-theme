@@ -437,3 +437,17 @@
     }
   }
 }
+
+
+
+@media only screen and (max-width: 960px) {
+  .banner-carousel .content-box {
+    h2 {
+      font-size: 26px !important;
+      padding-left: 0;
+    }
+    .text {
+      font-size: 36px !important;
+    }
+  }
+}
