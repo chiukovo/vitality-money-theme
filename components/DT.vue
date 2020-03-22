@@ -35,13 +35,9 @@
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active"><a class="nav-link" href="#" onclick="return false;">首頁</a></li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#modal-dt">
                     好神期交易系統
-                </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-dt">好神期交易系統</a>
-                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-horse">金融家交易系統</a>
-                  </div>
+                  </a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">關於我們</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">語言選擇</a></li>
@@ -163,7 +159,7 @@
           <div class="col-lg-7">
             <div class="mb-40">
               <p class="text-dark">
-                好神期 可以使您從任何流覽器和任何作業系統，包括Windows，Mac和Linux，開始進行外匯，股票，期貨市場的交易。您可以在網站直接訪問MetaTrader 5桌面平臺提供的豐富功能，這意味著您可以分析報價和交易，而無需下載或安裝任何應用程式。簡單地敲擊幾次，您就可以訪問您的帳戶並開始交易。網路平臺的交易非常安全，傳播的任何資訊都是被安全加密的
+                好神期 可以使您從任何流覽器和任何作業系統，包括Windows，Mac和Linux，開始進行外匯，股票，期貨市場的交易。您可以在網站直接訪問好神期交易平台提供的豐富功能，這意味著您可以分析報價和交易，而無需下載或安裝任何應用程式。簡單地敲擊幾次，您就可以訪問您的帳戶並開始交易。網路平臺的交易非常安全，傳播的任何資訊都是被安全加密的
                 <p>網頁平臺的操作無需任何額外的軟體或流覽器擴展 網頁版交易的所有優勢現在都能提供給您。現在就打開您的網路流覽器開始交易！</p>
               </p>
             </div>
