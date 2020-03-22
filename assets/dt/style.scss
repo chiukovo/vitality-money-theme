@@ -1,0 +1,116 @@
+$primary: #e84444;
+
+
+.top-header {
+  .list-inline-item {
+    color: #fff;
+  }
+}
+.navigation .navbar {
+  .dropdown-menu {
+    padding: 0 !important;
+  }
+  .dropdown-item {
+    text-align: center;
+    color: #000 !important;
+    margin-bottom: 0 !important;
+    padding: 1rem 1.6rem;
+    &:hover {
+      text-decoration: none !important;
+      color: #fff !important;
+      background-color: $primary !important;
+    }
+    &:before {
+      display: none !important;
+    }
+  }
+}
+
+// slider
+.hero-content {
+  width: 60%;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2rem;
+}
+.hero-slider .slick-dots {
+  bottom: -82px !important;
+}
+
+
+
+// modal
+.modal-info {
+  img {
+    max-width: 100%;
+  }
+  .mobile {
+    display: flex;
+    padding-top: 36px;
+    .modal-theme-group {
+      max-width: 368px;
+      padding: 1%;
+      margin: auto;
+    }
+  }
+}
+
+
+
+// login
+.modal-form {
+  display: flex;
+  flex-flow: column;
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 14px !important;
+    .form-input-label {
+      display: block;
+      width: 50px;
+    }
+    input {
+      transition: box-shadow .2s;
+      background: #f3f3f3;
+      border: 1px solid #e3e3e3;
+      border-radius: 3px;
+      padding: 12px 10px;
+      &.form-input2 {
+        width: 100%;
+      }
+    }
+    .form-select {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      .icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-8px);
+      }
+      select {
+        width: 100%;
+        height: 100%;
+        background: #f3f3f3;
+        border: 1px solid #e3e3e3;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
+        border-radius: 3px;
+        padding: 0 10px;
+      }
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #6c6f7a;
+      opacity: 1; /* Firefox */
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #6c6f7a;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: #6c6f7a;
+    }
+  }
+}

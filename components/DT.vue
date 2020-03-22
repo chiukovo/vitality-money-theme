@@ -14,17 +14,7 @@
             <div class="col-lg-12">
               <ul class="list-inline text-lg-right text-center">
                 <li class="list-inline-item">
-                  <a href="mailto:info@companyname.com">info@companyname.com</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="callto:1234565523">Call Us Now:
-                  <span class="ml-2"> 123 456 5523</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" onclick="return false;" id="searchOpen">
-                  <i class="ti-search"></i>
-                  </a>
+                  全新高效能H5, 穩定且安全的系統架構
                 </li>
               </ul>
             </div>
@@ -168,12 +158,12 @@
         <div class="row">
           <div class="col-lg-12">
             <h5 class="section-title-sm">Best Service</h5>
-            <h2 class="section-title section-title-border-half">好神奇 網頁版交易的優勢</h2>
+            <h2 class="section-title section-title-border-half">好神期 網頁版交易的優勢</h2>
           </div>
           <div class="col-lg-7">
             <div class="mb-40">
               <p class="text-dark">
-                好神奇 可以使您從任何流覽器和任何作業系統，包括Windows，Mac和Linux，開始進行外匯，股票，期貨市場的交易。您可以在網站直接訪問MetaTrader 5桌面平臺提供的豐富功能，這意味著您可以分析報價和交易，而無需下載或安裝任何應用程式。簡單地敲擊幾次，您就可以訪問您的帳戶並開始交易。網路平臺的交易非常安全，傳播的任何資訊都是被安全加密的
+                好神期 可以使您從任何流覽器和任何作業系統，包括Windows，Mac和Linux，開始進行外匯，股票，期貨市場的交易。您可以在網站直接訪問MetaTrader 5桌面平臺提供的豐富功能，這意味著您可以分析報價和交易，而無需下載或安裝任何應用程式。簡單地敲擊幾次，您就可以訪問您的帳戶並開始交易。網路平臺的交易非常安全，傳播的任何資訊都是被安全加密的
                 <p>網頁平臺的操作無需任何額外的軟體或流覽器擴展 網頁版交易的所有優勢現在都能提供給您。現在就打開您的網路流覽器開始交易！</p>
               </p>
             </div>
@@ -256,8 +246,8 @@
             <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
               <h3 class="section-title section-title-border-half text-white">ABOUT US</h3>
               <p class="text-white mb-40">
-                好神奇 網頁版交易 即時穩定的報價與最齊全的商品 為避免報價誤差與延遲，好神奇平台與國外知名報價廠商合作透過精密演算法呈現出與國外同步且精準的報價
-無論何時何地，您都可以在好神奇網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策 預測您喜歡金融交易品種的價格動向，通過技術分析，您可以 “窺視未來” 並通過這個優勢來獲得成功！
+                好神期 網頁版交易 即時穩定的報價與最齊全的商品 為避免報價誤差與延遲，好神期平台與國外知名報價廠商合作透過精密演算法呈現出與國外同步且精準的報價
+無論何時何地，您都可以在好神期網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策 預測您喜歡金融交易品種的價格動向，通過技術分析，您可以 “窺視未來” 並通過這個優勢來獲得成功！
               </p>
               <div>
                 <ul class="d-inline-block pl-0">
@@ -289,185 +279,7 @@
         </div>
       </div>
     </section>
-    <!-- work -->
-    <section class="section bg-gray">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h5 class="section-title-sm">Our Works</h5>
-            <h2 class="section-title section-title-border-gray">Latest Projects</h2>
-          </div>
-        </div>
-        <!-- work slider -->
-        <div class="row work-slider">
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /work -->
-    <!-- promo-video -->
-    <section class="promo-video overlay section" style="background-image: url(/dt/images/background/promo-video.jpg);">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="text-white mb-20 font-weight-normal">LOGIN</h1>
-            <div class="d-flex">
-              <a class="popup-youtube play-icon mr-4" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">
-              <i class="ti-control-play"></i>
-              </a>
-              <p class="text-white align-self-center h4">現在就打開您的網路流覽器
-                <br>
-                開始交易！
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /promo-video -->
+
     <!-- testimonial -->
     <section class="section pb-0">
       <div class="container">
@@ -484,16 +296,15 @@
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">我在巨匠 今年21歲 自從用了好神奇交易平台 讓我有了被動收入
-                  <br>謝謝好神奇!</p>
+                <p class="text-dark">我在巨匠 今年21歲 自從用了好神期交易平台 讓我有了被動收入
+                  <br>謝謝好神期!</p>
                 <h4 class="font-weight-normal">陳先生</h4>
                 <h6 class="font-secondary text-color">台中 北屯區</h6>
               </div>
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">好神奇交易系統 不但安全 可靠 數據非常及時 還能設定停損 是個非常好用的系統
-                  <br> 非常推薦給大家使用!
+                <p class="text-dark">好神期交易系統，不但安全、可靠，數據非常及時，還能設定停損，是個非常好用的系統，非常推薦給大家使用!
                 </p>
                 <h4 class="font-weight-normal">吳小姐</h4>
                 <h6 class="font-secondary text-color">台北 信義區</h6>
@@ -501,8 +312,7 @@
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">數據分析真的好神奇 非常完整 用了就回不去了 真的很推薦
-                  <br> 試一次就知道了
+                <p class="text-dark">數據分析真的好神期，非常完整，用了就回不去了，真的很推薦，試一次就知道了！
                 </p>
                 <h4 class="font-weight-normal">王先生</h4>
                 <h6 class="font-secondary text-color">高雄 三民區</h6>
@@ -513,11 +323,33 @@
       </div>
     </section>
     <!-- /testimonial -->
+
+    <!-- promo-video -->
+    <section class="promo-video overlay section" style="background-image: url(/dt/images/background/promo-video.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-white mb-20 font-weight-normal">LOGIN</h1>
+            <div class="d-flex">
+              <a class="play-icon mr-4" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">
+              <i class="ti-control-play"></i>
+              </a>
+              <p class="text-white align-self-center h4">現在就打開您的網路流覽器
+                <br>
+                開始交易！
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /promo-video -->
+    
     <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url(/dt/images/background/cta.jpg);">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-6">
-            <h3 class="text-white">輕鬆提升收入 加入好神奇</h3>
+            <h3 class="text-white">今天，好神期讓您體驗不同</h3>
           </div>
           <div class="col-lg-6 text-lg-right align-self-center">
             <a href="#" onclick="return false;" class="btn btn-light">立即免費試用</a>
@@ -525,141 +357,17 @@
         </div>
       </div>
     </section>
-    <!-- client logo slider -->
-    <section class="bg-white py-4">
-      <div class="container">
-        <div class="client-logo-slider align-self-center">
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png" alt="client-logo"></a>
-        </div>
-      </div>
-    </section>
-    <!-- /client logo slider -->
+
     <!-- footer -->
     <footer class="bg-secondary">
-      <div class="py-100 border-bottom" style="border-color: #454547 !important">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <div class="mb-5 mb-md-0 text-center text-md-left">
-                <!-- logo -->
-                <img class="mb-30" src="/dt/images/logo-footer.png" alt="logo">
-                <p class="text-white mb-30">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim.</p>
-                <!-- social icon -->
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-twitter-alt"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-vimeo-alt"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- footer links -->
-            <div class="col-lg-2 col-md-4 col-6">
-              <h4 class="text-white mb-4">Services</h4>
-              <ul class="footer-links">
-                <li>
-                  <a href="#" onclick="return false;">Company History</a>
-                </li>
-                <li>
-                  <a href="about.html">About Us</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                  <a href="service.html">Service</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-            <!-- footer links -->
-            <div class="col-lg-2 col-md-4 col-6">
-              <h4 class="text-white mb-4">Quick Link</h4>
-              <ul class="footer-links">
-                <li>
-                  <a href="#" onclick="return false;">Company History</a>
-                </li>
-                <li>
-                  <a href="about-2.html">About Us</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                  <a href="service-2.html">Service</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-            <!-- subscribe form -->
-            <div class="col-lg-3 col-md-12 offset-lg-1">
-              <div class="mt-5 mt-lg-0 text-center text-md-left">
-                <h4 class="mb-4 text-white">Subscribe Us</h4>
-                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod. </p>
-                <form action="#" class="position-relative">
-                  <input type="text" class="form-control subscribe" name="subscribe" id="Subscribe" placeholder="Enter Your Email">
-                  <button class="btn-subscribe" type="submit" value="send">
-                  <i class="ti-arrow-right"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- copyright -->
       <div class="pt-4 pb-3 position-relative">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-5">
               <p class="text-white text-center text-md-left">
-                <span class="text-primary">Bizpro</span> &copy; 2017 All Right Reserved
+                Copyright &copy; <span class="text-primary">好神期</span> Right Reserved
               </p>
-            </div>
-            <div class="col-lg-6 col-md-7">
-              <ul class="list-inline text-center text-md-right">
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Legal</a>
-                </li>
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Sitemap</a>
-                </li>
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-                <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Terms &amp; Conditions</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -670,12 +378,15 @@
       </div>
     </footer>
     <!-- /footer -->
-    <div class="modal modal-login-register login fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-login-register-label" aria-hidden="true">
-      <div class="modal-dialog modal-sm" role="document">
+
+    <div class="modal login fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="font-weight-bold modal-title" id="modal-login-register-label">登入系統</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">登入系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
             <div class="group-sm modal-form">
@@ -689,17 +400,17 @@
               </div>
               <div class="form-group">
                 <div class="form-select">
-                  <span class="icon linearicons-chevron-down"></span>
+                  <span class="icon ti-angle-down"></span>
                   <select v-model='type'>
-                    <option value="b">金融家交易系統</option>
                     <option value="d">好神期交易系統</option>
+                    <option value="b">金融家交易系統</option>
                   </select>
                 </div>
               </div>
               <div class="form-group form-button">
-                <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
+                <button type="button" class="btn btn-primary btn-block" @click.prevent="doLogin">登入</button>
               </div>
-              <div class="form-group group-sm-justify">
+              <div class="form-group d-flex justify-content-between">
                 <div class="form-group-col">
                   <input type="checkbox" id="save_account" v-model="rememberMe">
                   <label for="save_account">記住帳號</label>
@@ -713,50 +424,62 @@
         </div>
       </div>
     </div>
-    <div class="modal fade modal-info" id="modal-horse" tabindex="-1" role="dialog" aria-labelledby="modal-horse" aria-hidden="true">
+
+    <div class="modal modal-info fade" id="modal-horse" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="font-weight-bold modal-title" id="modal-info-horse">金融家交易系統</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">金融家交易系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
             <div class="pc">
               <div class="modal-theme-img">
-                <img src="/tt2/images/modalinfo/horse-1.png">
+                <img src="/dt/images/modalinfo/horse-1.png">
               </div>
             </div>
             <div class="mobile">
               <div class="modal-theme-group">
                 <div class="modal-theme-img">
-                  <img src="/tt2/images/modalinfo/horse-m1.png">
+                  <img src="/dt/images/modalinfo/horse-m1.png">
                 </div>
               </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade modal-info" id="modal-dt" tabindex="-1" role="dialog" aria-labelledby="modal-dt" aria-hidden="true">
+
+    <div class="modal modal-info fade" id="modal-dt" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="font-weight-bold modal-title" id="modal-dt">好神期交易系統</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <h5 class="modal-title">好神期交易系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div class="modal-body">
             <div class="pc">
               <div class="modal-theme-img">
-                <img src="/tt2/images/modalinfo/dt-1.png">
+                <img src="/dt/images/modalinfo/dt-1.png">
               </div>
             </div>
             <div class="mobile">
               <div class="modal-theme-group">
                 <div class="modal-theme-img">
-                  <img src="/tt2/images/modalinfo/dt-m1.png">
+                  <img src="/dt/images/modalinfo/dt-m1.png">
                 </div>
               </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
           </div>
         </div>
       </div>
@@ -764,7 +487,7 @@
   </div>
 </template>
 <script>
-  //import '@/assets/tt2/style.scss'
+  import '@/assets/dt/style.scss'
   import axios from 'axios'
   import qs from 'qs'
   export default {
@@ -825,7 +548,7 @@
         }, {
             rel: 'stylesheet',
             href: '/dt/css/style.css'
-        }, ]
+        } ]
       }
     },
     data () {
@@ -834,7 +557,7 @@
         account: '',
         password: '',
         rememberMe: '',
-        type: 'b',
+        type: 'd',
         dt_url: '',
         horse_url: '',
       }
