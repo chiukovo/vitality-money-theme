@@ -851,6 +851,8 @@
   //import '@/assets/tt2/style.scss'
   import axios from 'axios'
   import qs from 'qs'
+  import { isMobile } from 'mobile-device-detect';
+  
   export default {
     head() {
       return {
