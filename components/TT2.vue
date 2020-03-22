@@ -647,7 +647,7 @@
               <div class="form-group">
                 <div class="form-select">
                   <select v-model='type'>
-                    <option value="">TT2交易系統</option>
+                    <option value="tt2">TT2交易系統</option>
                     <option value="b">金融家交易系統</option>
                     <option value="d">好神期交易系統</option>
                   </select>
@@ -889,7 +889,7 @@
         account: '',
         password: '',
         rememberMe: '',
-        type: 'b',
+        type: 'tt2',
         dt_url: '',
         horse_url: '',
         tt2_url: '',
@@ -1047,8 +1047,10 @@
             .URL
           if (_this.type == 'b') {
             location.href = _this.horse_url + params
-          } else {
+          } else if (_this.type == 'd') {
             location.href = _this.dt_url + params
+          } else {
+            location.href = _this.tt2_url
           }
         })
       }
