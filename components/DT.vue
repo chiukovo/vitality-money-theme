@@ -14,17 +14,7 @@
             <div class="col-lg-12">
               <ul class="list-inline text-lg-right text-center">
                 <li class="list-inline-item">
-                  <a href="mailto:info@companyname.com">info@companyname.com</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="callto:1234565523">Call Us Now:
-                  <span class="ml-2"> 123 456 5523</span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" onclick="return false;" id="searchOpen">
-                  <i class="ti-search"></i>
-                  </a>
+                  全新高效能H5, 穩定且安全的系統架構
                 </li>
               </ul>
             </div>
@@ -35,7 +25,7 @@
       <div class="navigation">
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#" onclick="return false;">
             <img src="/dt/images/logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,13 +34,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active"><a class="nav-link" href="#" onclick="return false;">首頁</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">好神期交易系統</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                    好神期交易系統
+                </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-dt">好神期交易系統</a>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modal-horse">金融家交易系統</a>
+                  </div>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">關於我們</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">語言選擇</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">意見調查</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" onclick="return false;">註冊</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">註冊</a></li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-primary btn-sm" href="#" onclick="return false;">登入</a>
+                  <a class="nav-link btn btn-primary btn-sm" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">登入</a>
                 </li>
               </ul>
             </div>
@@ -80,157 +78,75 @@
     <!-- /navigation -->
     <section>
       <div class="hero-slider position-relative">
-        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-1.jpg);" data-icon="ti-comments" data-text="Consultation">
+        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-1.jpg);" data-icon="ti-comments" data-text="讓獲利更簡單">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
                 <div class="hero-content">
-                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">We are here to</h4>
-                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Planning Business</h1>
-                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    <br> incididunt ut labore et dolore magna aliqua.
+                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">創新，安全，專業</h4>
+                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">讓獲利更簡單</h1>
+                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">
+                    數百萬人使用 金融家系統
+                    <br>
+                    進行世界最受歡迎的市場交易，探索無限交易選擇。我們提供數千種金融工具、免費即時行情和全天候線上支持。
                   </p>
-                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
+                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase" data-toggle="modal" data-target="#modal">立即登入</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-2.jpg);" data-icon="ti-bar-chart" data-text="Marketting">
+        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-2.jpg);" data-icon="ti-bar-chart" data-text="專業數據分析">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
                 <div class="hero-content">
-                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">Get your</h4>
-                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Business Consultant</h1>
-                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    <br> incididunt ut labore et dolore magna aliqua.
+                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">通過我們強大的平台進入市場</h4>
+                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">專業數據分析</h1>
+                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">
+                    交易及投資頂尖金融工具
+                    <br>
+                    享受幾近即時的市場訂單執行流程，進行世界最受歡迎的市場交易。在簡單直覺的交易平台上投資各種市場。
                   </p>
-                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
+                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase" data-toggle="modal" data-target="#modal">立即登入</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-3.jpg);" data-icon="ti-money" data-text="Finance">
+        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-3.jpg);" data-icon="ti-money" data-text="全新H5智能分析">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
                 <div class="hero-content">
-                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">Start your</h4>
-                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">Future Plan</h1>
-                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    <br> incididunt ut labore et dolore magna aliqua.
+                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".1">拒絕被淘汰</h4>
+                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".5">全新H5 智能分析</h1>
+                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInLeft" data-delay-in=".9">
+                    簡單操作 適合所有族群
+                    <br>
+                    每次最小交易手數低至0.01手，低保證金即可開倉。交易非常有競爭力、透明的低價差，低隔夜利息，讓您盡享低成本的交易
                   </p>
-                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
+                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase" data-toggle="modal" data-target="#modal">立即登入</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-4.jpg);" data-icon="ti-package" data-text="Human Resources">
+        <div class="hero-slider-item py-160" style="background-image: url(/dt/images/banner/banner-4.jpg);" data-icon="ti-package" data-text="安全的系統架構">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
                 <div class="hero-content">
-                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">We are always</h4>
-                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">Be Inspired By Best</h1>
-                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    <br> incididunt ut labore et dolore magna aliqua.
+                  <h4 class="text-uppercase mb-1" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".1">穩定且安全的系統架構</h4>
+                  <h1 class="font-weight-bold mb-3" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".5">選擇喜歡的交易系統</h1>
+                  <p class="text-dark mb-50" data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in=".9">
+                    交易行為固定 簡單化、模式化
+                    <br>
+                    即時且詳細的報價 讓您永遠比別人早一步掌握市場價格
                   </p>
-                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase">more details</a>
+                  <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="#" onclick="return false;" class="btn btn-outline text-uppercase" data-toggle="modal" data-target="#modal">立即登入</a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- service -->
-    <section class="section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12 text-center">
-            <h5 class="section-title-sm">Best Service</h5>
-            <h2 class="section-title section-title-border">Service We Provide</h2>
-          </div>
-          <!-- service item -->
-          <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-            <div class="card text-center">
-              <h4 class="card-title pt-3">Business Consulting</h4>
-              <div class="card-img-wrapper">
-                <img class="card-img-top rounded-0" src="/dt/images/service/service-1.jpg" alt="service-image">
-              </div>
-              <div class="card-body p-0">
-                <i class="square-icon translateY-33 rounded ti-bar-chart"></i>
-                <p class="card-text mx-2 mb-0">Lorem ipsum dolor amet consecte tur adipisicing elit sed done eius mod tempor enim ad minim veniam quis nostrud.</p>
-                <a href="service-single.html" class="btn btn-secondary translateY-25">Read More</a>
-              </div>
-            </div>
-          </div>
-          <!-- service item -->
-          <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-            <div class="card text-center">
-              <h4 class="card-title pt-3">Valuable Idea</h4>
-              <div class="card-img-wrapper">
-                <img class="card-img-top rounded-0" src="/dt/images/service/service-2.jpg" alt="service-image">
-              </div>
-              <div class="card-body p-0">
-                <i class="square-icon translateY-33 rounded ti-thought"></i>
-                <p class="card-text mx-2 mb-0">Lorem ipsum dolor amet consecte tur adipisicing elit sed done eius mod tempor enim ad minim veniam quis nostrud.</p>
-                <a href="service-single.html" class="btn btn-secondary translateY-25">Read More</a>
-              </div>
-            </div>
-          </div>
-          <!-- service item -->
-          <div class="col-lg-4 col-sm-6">
-            <div class="card text-center">
-              <h4 class="card-title pt-3">Market Strategy</h4>
-              <div class="card-img-wrapper">
-                <img class="card-img-top rounded-0" src="/dt/images/service/service-3.jpg" alt="service-image">
-              </div>
-              <div class="card-body p-0">
-                <i class="square-icon translateY-33 rounded ti-server"></i>
-                <p class="card-text mx-2 mb-0">Lorem ipsum dolor amet consecte tur adipisicing elit sed done eius mod tempor enim ad minim veniam quis nostrud.</p>
-                <a href="service-single.html" class="btn btn-secondary translateY-25">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about section-sm overlay" style="background-image: url(/dt/images/background/about-bg.jpg);">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 ml-auto">
-            <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
-              <h3 class="section-title section-title-border-half text-white">Who We Are?</h3>
-              <p class="text-white mb-40">Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.</p>
-              <div>
-                <ul class="d-inline-block pl-0">
-                  <li class="font-secondary mb-10 text-white float-sm-left mr-sm-5">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Business Services
-                  </li>
-                  <li class="font-secondary mb-10 text-white">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Audit &amp; Assurance
-                  </li>
-                  <li class="font-secondary mb-10 text-white">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>IT Control Solutions
-                  </li>
-                </ul>
-                <ul class="d-inline-block pl-0">
-                  <li class="font-secondary mb-10 text-white">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Business Services
-                  </li>
-                  <li class="font-secondary mb-10 text-white">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>Audit &amp; Assurance
-                  </li>
-                  <li class="font-secondary mb-10 text-white">
-                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>IT Control Solutions
-                  </li>
-                </ul>
-              </div>
-              <a href="#" onclick="return false;" class="btn btn-primary mt-4">Explore More</a>
             </div>
           </div>
         </div>
@@ -242,12 +158,14 @@
         <div class="row">
           <div class="col-lg-12">
             <h5 class="section-title-sm">Best Service</h5>
-            <h2 class="section-title section-title-border-half">Why Choose Us</h2>
+            <h2 class="section-title section-title-border-half">好神期 網頁版交易的優勢</h2>
           </div>
           <div class="col-lg-7">
             <div class="mb-40">
-              <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. </p>
-              <p class="text-dark mb-30">Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p class="text-dark">
+                好神期 可以使您從任何流覽器和任何作業系統，包括Windows，Mac和Linux，開始進行外匯，股票，期貨市場的交易。您可以在網站直接訪問MetaTrader 5桌面平臺提供的豐富功能，這意味著您可以分析報價和交易，而無需下載或安裝任何應用程式。簡單地敲擊幾次，您就可以訪問您的帳戶並開始交易。網路平臺的交易非常安全，傳播的任何資訊都是被安全加密的
+                <p>網頁平臺的操作無需任何額外的軟體或流覽器擴展 網頁版交易的所有優勢現在都能提供給您。現在就打開您的網路流覽器開始交易！</p>
+              </p>
             </div>
             <!-- fun-fact -->
             <div class="mb-md-50">
@@ -256,8 +174,8 @@
                   <div class="d-flex flex-column flex-sm-row align-items-center">
                     <i class="round-icon mr-sm-3 ti-server"></i>
                     <div class="text-center text-sm-left">
-                      <h2 class="count mb-0" data-count="230">0</h2>
-                      <p class="mb-0">Projects Done</p>
+                      <h2 class="count mb-0" data-count="30">0</h2>
+                      <p class="mb-0">數據分析</p>
                     </div>
                   </div>
                 </div>
@@ -265,8 +183,8 @@
                   <div class="d-flex flex-column flex-sm-row align-items-center">
                     <i class="round-icon mr-sm-3 ti-face-smile"></i>
                     <div class="text-center text-sm-left">
-                      <h2 class="count mb-0" data-count="789">0</h2>
-                      <p class="mb-0">Satisfied Clients</p>
+                      <h2 class="count mb-0" data-count="102">0</h2>
+                      <p class="mb-0">歷史資料</p>
                     </div>
                   </div>
                 </div>
@@ -274,8 +192,8 @@
                   <div class="d-flex flex-column flex-sm-row align-items-center">
                     <i class="round-icon mr-sm-3 ti-thumb-up"></i>
                     <div class="text-center text-sm-left">
-                      <h2 class="count mb-0" data-count="580">0</h2>
-                      <p class="mb-0">Cup Of Coffee</p>
+                      <h2 class="count mb-0" data-count="60">0</h2>
+                      <p class="mb-0">K線走勢</p>
                     </div>
                   </div>
                 </div>
@@ -285,7 +203,7 @@
           <!-- progressbar -->
           <div class="col-lg-4 offset-lg-1">
             <div class="progressbar">
-              <h5 class="progressbar-title">Branding</h5>
+              <h5 class="progressbar-title">分析物件</h5>
               <div class="progress" data-percent="85%">
                 <div class="progress-bar progress-bar-striped" style="width: 85%;">
                   <div class="progress-bar-value">85%</div>
@@ -293,7 +211,7 @@
               </div>
             </div>
             <div class="progressbar">
-              <h5 class="progressbar-title">Consulting</h5>
+              <h5 class="progressbar-title">時間週期</h5>
               <div class="progress" data-percent="90%">
                 <div class="progress-bar progress-bar-striped" style="width: 90%;">
                   <div class="progress-bar-value">90%</div>
@@ -301,7 +219,7 @@
               </div>
             </div>
             <div class="progressbar">
-              <h5 class="progressbar-title">Business</h5>
+              <h5 class="progressbar-title">走勢分析</h5>
               <div class="progress" data-percent="75%">
                 <div class="progress-bar progress-bar-striped" style="width: 75%;">
                   <div class="progress-bar-value">75%</div>
@@ -309,10 +227,10 @@
               </div>
             </div>
             <div class="progressbar">
-              <h5 class="progressbar-title">Promotion</h5>
-              <div class="progress" data-percent="90%">
-                <div class="progress-bar progress-bar-striped" style="width: 90%;">
-                  <div class="progress-bar-value">90%</div>
+              <h5 class="progressbar-title">安全防護</h5>
+              <div class="progress" data-percent="95%">
+                <div class="progress-bar progress-bar-striped" style="width: 95%;">
+                  <div class="progress-bar-value">95%</div>
                 </div>
               </div>
             </div>
@@ -321,253 +239,54 @@
       </div>
     </section>
     <!-- /skill -->
-    <!-- work -->
-    <section class="section bg-gray">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h5 class="section-title-sm">Our Works</h5>
-            <h2 class="section-title section-title-border-gray">Latest Projects</h2>
-          </div>
-        </div>
-        <!-- work slider -->
-        <div class="row work-slider">
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-1.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-1.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-2.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-2.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-3.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-3.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 px-0">
-            <div class="work-slider-image">
-              <img class="img-fluid w-100" src="/dt/images/works/work-4.jpg" alt="work-image">
-              <div class="image-overlay">
-                <a class="popup-image" data-effect="mfp-zoom-in" href="/dt/images/works/work-4.jpg">
-                <i class="ti-search"></i>
-                </a>
-                <a class="h4" href="project-single.html">Cras Sed Elit Sit Amet.</a>
-                <p>by Admin</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /work -->
-    <!-- mission -->
-    <section class="mission section">
+    <section class="about section-sm overlay" style="background-image: url(/dt/images/background/about-bg.jpg);">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h5 class="section-title-sm">Our Goal</h5>
-            <h2 class="section-title section-title-border-half">Company Mission</h2>
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="mb-40">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <!-- accordion -->
-            <div id="accordion" class="mb-md-50">
-              <div class="card border-0 mb-4">
-                <div class="card-header bg-gray border p-0">
-                  <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseOne">
-                  <i class="ti-minus text-primary mr-2"></i> Our Company Mission
-                  </a>
-                </div>
-                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                  <div class="card-body font-secondary text-color pl-0 pb-0">
-                    Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-                  </div>
-                </div>
-              </div>
-              <div class="card border-0 mb-4">
-                <div class="card-header bg-gray border p-0">
-                  <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseTwo">
-                  <i class="ti-plus text-primary mr-2"></i> Our Company Mission
-                  </a>
-                </div>
-                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                  <div class="card-body font-secondary text-color pl-0 pb-0">
-                    Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-                  </div>
-                </div>
-              </div>
-              <div class="card border-0 mb-4">
-                <div class="card-header bg-gray border p-0">
-                  <a class="collapsed card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#collapseThree">
-                  <i class="ti-plus text-primary mr-2"></i> Our Company Mission
-                  </a>
-                </div>
-                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                  <div class="card-body font-secondary text-color pl-0 pb-0">
-                    Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- chart -->
-          <div class="col-lg-6">
-            <img src="/dt/images/chart.png" alt="chart" class="img-fluid w-100">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /mission -->
-    <!-- promo-video -->
-    <section class="promo-video overlay section" style="background-image: url(/dt/images/background/promo-video.jpg);">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="text-white mb-20 font-weight-normal">We Are Alawys <br> Comited</h1>
-            <div class="d-flex">
-              <a class="popup-youtube play-icon mr-4" href="https://www.youtube.com/watch?v=6ZfuNTqbHE8">
-              <i class="ti-control-play"></i>
-              </a>
-              <p class="text-white align-self-center h4">Lorem ipsum dolor
-                <br> sit amet con.
+          <div class="col-lg-6 ml-auto">
+            <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
+              <h3 class="section-title section-title-border-half text-white">ABOUT US</h3>
+              <p class="text-white mb-40">
+                好神期 網頁版交易 即時穩定的報價與最齊全的商品 為避免報價誤差與延遲，好神期平台與國外知名報價廠商合作透過精密演算法呈現出與國外同步且精準的報價
+無論何時何地，您都可以在好神期網頁版上查看最精準穩定的報價與最齊全的商品，對全球期貨指數做出理性的交易決策 預測您喜歡金融交易品種的價格動向，通過技術分析，您可以 “窺視未來” 並通過這個優勢來獲得成功！
               </p>
+              <div>
+                <ul class="d-inline-block pl-0">
+                  <li class="font-secondary mb-10 text-white float-sm-left mr-sm-5">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>專業技術分析
+                  </li>
+                  <li class="font-secondary mb-10 text-white">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>即時穩定的報價
+                  </li>
+                  <li class="font-secondary mb-10 text-white">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>最齊全的商品
+                  </li>
+                </ul>
+                <ul class="d-inline-block pl-0">
+                  <li class="font-secondary mb-10 text-white">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>自定義平台視圖
+                  </li>
+                  <li class="font-secondary mb-10 text-white">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>安全的系統架構
+                  </li>
+                  <li class="font-secondary mb-10 text-white">
+                    <i class="text-primary mr-2 ti-arrow-circle-right"></i>24在線客服
+                  </li>
+                </ul>
+              </div>
+              <a href="#" onclick="return false;" class="btn btn-primary mt-4" data-toggle="modal" data-target="#modal">立即登入</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- /promo-video -->
+
     <!-- testimonial -->
     <section class="section pb-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h5 class="section-title-sm">Clients</h5>
-            <h2 class="section-title section-title-border"> What client Say </h2>
+            <h5 class="section-title-sm">What client Say</h5>
+            <h2 class="section-title section-title-border"> 體驗至上 活躍用戶都讚不絕口 </h2>
           </div>
           <div class="col-lg-5 col-md-5 pr-0 align-self-center">
             <img class="img-fluid w-100" src="/dt/images/client.png" alt="clients-image">
@@ -577,23 +296,26 @@
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">Lorem ipsum dolor sit amet constur adipisicing elit sed eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.</p>
-                <h4 class="font-weight-normal">Julia Robertson</h4>
-                <h6 class="font-secondary text-color">Happy Clients</h6>
+                <p class="text-dark">在眾多的交易系統中 自從用了好神期交易平台 讓我有了被動收入
+                  <br>謝謝好神期!</p>
+                <h4 class="font-weight-normal">陳先生</h4>
+                <h6 class="font-secondary text-color">台中 北屯區</h6>
               </div>
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">Lorem ipsum dolor sit amet constur adipisicing elit sed eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.</p>
-                <h4 class="font-weight-normal">Julia Robertson</h4>
-                <h6 class="font-secondary text-color">Happy Clients</h6>
+                <p class="text-dark">好神期交易系統，不但安全、可靠，數據非常及時，還能設定停損，是個非常好用的系統，非常推薦給大家使用!
+                </p>
+                <h4 class="font-weight-normal">吳小姐</h4>
+                <h6 class="font-secondary text-color">台北 信義區</h6>
               </div>
               <!-- slider item -->
               <div class="outline-0">
                 <i class="testimonial-icon ti-quote-left"></i>
-                <p class="text-dark">Lorem ipsum dolor sit amet constur adipisicing elit sed eiusmtempor incid sed dolore magna aliqu enim minim veniam quis nostrud exercittion ullamco labo ris nisi aliquip excepteur.</p>
-                <h4 class="font-weight-normal">Julia Robertson</h4>
-                <h6 class="font-secondary text-color">Happy Clients</h6>
+                <p class="text-dark">數據分析真的好神期，非常完整，用了就回不去了，真的很推薦，試一次就知道了！
+                </p>
+                <h4 class="font-weight-normal">王先生</h4>
+                <h6 class="font-secondary text-color">高雄 三民區</h6>
               </div>
             </div>
           </div>
@@ -601,240 +323,51 @@
       </div>
     </section>
     <!-- /testimonial -->
+
+    <!-- promo-video -->
+    <section class="promo-video overlay section" style="background-image: url(/dt/images/background/promo-video.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-white mb-20 font-weight-normal">LOGIN</h1>
+            <div class="d-flex">
+              <a class="play-icon mr-4" href="#" onclick="return false;" data-toggle="modal" data-target="#modal">
+              <i class="ti-control-play"></i>
+              </a>
+              <p class="text-white align-self-center h4">現在就打開您的網路流覽器
+                <br>
+                開始交易！
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /promo-video -->
+
     <section class="cta overlay-primary py-50 text-center text-lg-left" style="background-image: url(/dt/images/background/cta.jpg);">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-6">
-            <h3 class="text-white">Biztrox give the smart solution for your business</h3>
+            <h3 class="text-white">今天，好神期讓您體驗不同</h3>
           </div>
           <div class="col-lg-6 text-lg-right align-self-center">
-            <a href="#" onclick="return false;" class="btn btn-light">GET AN QUOTE</a>
+            <a href="#" onclick="return false;" class="btn btn-light" data-toggle="modal" data-target="#modal">立即免費試用</a>
           </div>
         </div>
       </div>
     </section>
-    <!-- blog -->
-    <section class="section bg-gray">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12 text-center">
-            <h5 class="section-title-sm">Latest News</h5>
-            <h2 class="section-title section-title-border-gray">Company News</h2>
-          </div>
-          <!-- blog-item -->
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <div class="card">
-              <div class="card-img-wrapper overlay-rounded-top">
-                <img class="card-img-top" src="/dt/images/blog/blog-1.jpg" alt="blog-thumbnail">
-              </div>
-              <div class="card-body p-0">
-                <div class="d-flex">
-                  <div class="py-3 px-4 border-right text-center">
-                    <h3 class="text-primary mb-0">25</h3>
-                    <p class="mb-0">Nov</p>
-                  </div>
-                  <div class="p-3">
-                    <a href="blog-single.html" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
-                    <p>by Admin</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- blog-item -->
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <div class="card">
-              <div class="card-img-wrapper overlay-rounded-top">
-                <img class="card-img-top" src="/dt/images/blog/blog-2.jpg" alt="blog-thumbnail">
-              </div>
-              <div class="card-body p-0">
-                <div class="d-flex">
-                  <div class="py-3 px-4 border-right text-center">
-                    <h3 class="text-primary mb-0">25</h3>
-                    <p class="mb-0">Nov</p>
-                  </div>
-                  <div class="p-3">
-                    <a href="blog-single.html" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
-                    <p>by Admin</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- blog-list -->
-          <div class="col-lg-4 col-12">
-            <ul class="bg-white border rounded pl-0">
-              <li class="d-flex border-bottom">
-                <div class="py-3 px-4 border-right text-center">
-                  <h3 class="text-primary mb-0">25</h3>
-                  <p class="mb-2">Nov</p>
-                </div>
-                <div class="p-3">
-                  <a href="blog-single.html" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
-                  <p>by Admin</p>
-                </div>
-              </li>
-              <li class="d-flex border-bottom">
-                <div class="py-3 px-4 border-right text-center">
-                  <h3 class="text-primary mb-0">25</h3>
-                  <p class="mb-2">Nov</p>
-                </div>
-                <div class="p-3">
-                  <a href="blog-single.html" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
-                  <p>by Admin</p>
-                </div>
-              </li>
-              <li class="d-flex">
-                <div class="py-3 px-4 border-right text-center">
-                  <h3 class="text-primary mb-0">25</h3>
-                  <p class="mb-2">Nov</p>
-                </div>
-                <div class="p-3">
-                  <a href="blog-single.html" class="h4 font-primary text-dark">Cras sed elit sit amet.</a>
-                  <p>by Admin</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /blog -->
-    <!-- client logo slider -->
-    <section class="bg-white py-4">
-      <div class="container">
-        <div class="client-logo-slider align-self-center">
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="#" onclick="return false;" class="text-center d-block outline-0 py-3 px-2"><img class="d-unset" src="/dt/images/client-logo/client-logo-5.png" alt="client-logo"></a>
-        </div>
-      </div>
-    </section>
-    <!-- /client logo slider -->
+
     <!-- footer -->
     <footer class="bg-secondary">
-      <div class="py-100 border-bottom" style="border-color: #454547 !important">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <div class="mb-5 mb-md-0 text-center text-md-left">
-                <!-- logo -->
-                <img class="mb-30" src="/dt/images/logo-footer.png" alt="logo">
-                <p class="text-white mb-30">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim.</p>
-                <!-- social icon -->
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-twitter-alt"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-vimeo-alt"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a class="social-icon-outline" href="#" onclick="return false;">
-                    <i class="ti-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- footer links -->
-            <div class="col-lg-2 col-md-4 col-6">
-              <h4 class="text-white mb-4">Services</h4>
-              <ul class="footer-links">
-                <li>
-                  <a href="#" onclick="return false;">Company History</a>
-                </li>
-                <li>
-                  <a href="about.html">About Us</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                  <a href="service.html">Service</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-            <!-- footer links -->
-            <div class="col-lg-2 col-md-4 col-6">
-              <h4 class="text-white mb-4">Quick Link</h4>
-              <ul class="footer-links">
-                <li>
-                  <a href="#" onclick="return false;">Company History</a>
-                </li>
-                <li>
-                  <a href="about-2.html">About Us</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                  <a href="service-2.html">Service</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-            <!-- subscribe form -->
-            <div class="col-lg-3 col-md-12 offset-lg-1">
-              <div class="mt-5 mt-lg-0 text-center text-md-left">
-                <h4 class="mb-4 text-white">Subscribe Us</h4>
-                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod. </p>
-                <form action="#" class="position-relative">
-                  <input type="text" class="form-control subscribe" name="subscribe" id="Subscribe" placeholder="Enter Your Email">
-                  <button class="btn-subscribe" type="submit" value="send">
-                  <i class="ti-arrow-right"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- copyright -->
       <div class="pt-4 pb-3 position-relative">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-5">
               <p class="text-white text-center text-md-left">
-                <span class="text-primary">Bizpro</span> &copy; 2017 All Right Reserved
+                Copyright &copy; <span class="text-primary">好神期</span> Right Reserved
               </p>
-            </div>
-            <div class="col-lg-6 col-md-7">
-              <ul class="list-inline text-center text-md-right">
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Legal</a>
-                </li>
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Sitemap</a>
-                </li>
-                <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Privacy Policy</a>
-                </li>
-                <li class="list-inline-item ml-lg-3 my-lg-0 ml-2 my-2 ml-0">
-                  <a class="font-secondary text-white" href="#" onclick="return false;">Terms &amp; Conditions</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -845,10 +378,116 @@
       </div>
     </footer>
     <!-- /footer -->
+
+    <div class="modal login fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">登入系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="group-sm modal-form">
+              <div class="form-group">
+                <label for="" class="form-input-label">帳號</label>
+                <input type="text" class="form-input2" placeholder="請輸入帳號" v-model='account'>
+              </div>
+              <div class="form-group">
+                <label for="" class="form-input-label">密碼</label>
+                <input type="password" class="form-input2" placeholder="請輸入密碼" v-model='password'>
+              </div>
+              <div class="form-group">
+                <div class="form-select">
+                  <span class="icon ti-angle-down"></span>
+                  <select v-model='type'>
+                    <option value="d">好神期交易系統</option>
+                    <option value="b">金融家交易系統</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group form-button">
+                <button type="button" class="btn btn-primary btn-block" @click.prevent="doLogin">登入</button>
+              </div>
+              <div class="form-group d-flex justify-content-between">
+                <div class="form-group-col">
+                  <input type="checkbox" id="save_account" v-model="rememberMe">
+                  <label for="save_account">記住帳號</label>
+                </div>
+                <div class="form-group-col text-right">
+                  <a href="#" onclick="return false;">忘記密碼</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-info fade" id="modal-horse" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">金融家交易系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pc">
+              <div class="modal-theme-img">
+                <img src="/dt/images/modalinfo/horse-1.png">
+              </div>
+            </div>
+            <div class="mobile">
+              <div class="modal-theme-group">
+                <div class="modal-theme-img">
+                  <img src="/dt/images/modalinfo/horse-m1.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal-info fade" id="modal-dt" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">好神期交易系統</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="pc">
+              <div class="modal-theme-img">
+                <img src="/dt/images/modalinfo/dt-1.png">
+              </div>
+            </div>
+            <div class="mobile">
+              <div class="modal-theme-group">
+                <div class="modal-theme-img">
+                  <img src="/dt/images/modalinfo/dt-m1.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
-  //import '@/assets/tt2/style.scss'
+  import '@/assets/dt/style.scss'
   import axios from 'axios'
   import qs from 'qs'
   import { isMobile } from 'mobile-device-detect';
@@ -866,8 +505,6 @@
             content: 'width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
         }, ],
         script: [{
-            src: '/dt/plugins/jQuery/jquery.min.js'
-        }, {
             src: '/dt/plugins/bootstrap/bootstrap.min.js',
             body: true
         }, {
@@ -913,7 +550,7 @@
         }, {
             rel: 'stylesheet',
             href: '/dt/css/style.css'
-        }, ]
+        } ]
       }
     },
     data () {
@@ -922,7 +559,7 @@
         account: '',
         password: '',
         rememberMe: '',
-        type: 'b',
+        type: 'd',
         dt_url: '',
         horse_url: '',
       }

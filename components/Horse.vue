@@ -21,7 +21,7 @@
               <!-- RD Navbar Toggle-->
               <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-outer"><span></span></button>
               <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand"><a class="brand" href="#">
+              <div class="rd-navbar-brand"><a class="brand" href="#" onclick="return false;">
                 <img src="/horse/images/logo.png" alt="" width="125" height="45" srcset="/horse/images/logo.png 2x"/></a>
               </div>
             </div>
@@ -30,7 +30,7 @@
               <ul class="rd-navbar-nav">
                 <li class="rd-nav-item active"><a class="rd-nav-link" href="#" onclick="return false;">首頁</a>
                 </li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">交易平台</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="# onclick="return false;"">交易平台</a>
                   <!-- RD Navbar Dropdown-->
                   <ul class="rd-menu rd-navbar-dropdown">
                     <li class="rd-megamenu-item">
@@ -130,7 +130,7 @@
             <div class="list-steps__item-counter"></div>
             <div class="list-steps__item-divider"></div>
             <div class="list-steps__item-main">
-              <h4><a href="#">全部在瞬間完成</a></h4>
+              <h4><a href="#" onclick="return false;">全部在瞬間完成</a></h4>
               <p>使用即時買入和賣出按鈕直接從實時圖表中開設倉位</p>
             </div>
           </li>
@@ -138,7 +138,7 @@
             <div class="list-steps__item-counter"></div>
             <div class="list-steps__item-divider"></div>
             <div class="list-steps__item-main">
-              <h4><a href="#">無需在查找</a></h4>
+              <h4><a href="#" onclick="return false;">無需在查找</a></h4>
               <p>使用個性化觀察列表將您交易最多的產品放於一處</p>
             </div>
           </li>
@@ -146,7 +146,7 @@
             <div class="list-steps__item-counter"></div>
             <div class="list-steps__item-divider"></div>
             <div class="list-steps__item-main">
-              <h4><a href="#">氣質與內涵</a></h4>
+              <h4><a href="#" onclick="return false;">氣質與內涵</a></h4>
               <p>在深暗與明亮主題之間切換以自定義平台視圖</p>
             </div>
           </li>
@@ -178,22 +178,22 @@
         <h2><span class="d-inline-block" style="max-width: 520px;">技術規格</span></h2>
         <p>網頁版/支持的瀏覽器</p>
         <div class="row row-40 offset-top-1">
-          <div class="col-6 col-md-3"><a class="box-lily" href="#">
+          <div class="col-6 col-md-3"><a class="box-lily" href="#" onclick="return false;">
               <div class="icon browser-logo">
                 <img src="/horse/images/browser_logo_chrome.png">
               </div>
               <p class="box-lily__title">Google Chrome</p></a></div>
-          <div class="col-6 col-md-3"><a class="box-lily" href="#">
+          <div class="col-6 col-md-3"><a class="box-lily" href="#" onclick="return false;">
               <div class="icon browser-logo">
                 <img src="/horse/images/browser_logo_firefox.png">
               </div>
               <p class="box-lily__title">Mozilla Firefox</p></a></div>
-          <div class="col-6 col-md-3"><a class="box-lily" href="#">
+          <div class="col-6 col-md-3"><a class="box-lily" href="#" onclick="return false;">
               <div class="icon browser-logo">
                 <img src="/horse/images/browser_logo_edge.png">
               </div>
               <p class="box-lily__title">Microsoft Edge</p></a></div>
-          <div class="col-6 col-md-3"><a class="box-lily" href="#">
+          <div class="col-6 col-md-3"><a class="box-lily" href="#" onclick="return false;">
               <div class="icon browser-logo">
                 <img src="/horse/images/browser_logo_safari.png">
               </div>
@@ -217,28 +217,28 @@
             <div class="row row-30">
               <div class="col-12"></div>
               <div class="col-12 wow fadeInUpSmall">
-                <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-mouse-right"></span>
+                <!-- Link Box--><a class="link-box" href="#" onclick="return false;"><span class="icon link-box__icon linearicons-mouse-right"></span>
                   <div class="link-box__main">
                     <h4>簡易操作</h4>
                     <p>適合所有及別的交易者。從初學這到經驗者在到專業人士。</p>
                   </div></a>
               </div>
               <div class="col-12 wow fadeInUpSmall" data-wow-delay=".1s">
-                <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon  linearicons-signal"></span>
+                <!-- Link Box--><a class="link-box" href="#" onclick="return false;"><span class="icon link-box__icon  linearicons-signal"></span>
                   <div class="link-box__main">
                     <h4>多功能</h4>
                     <p>三種不同的技術圖表，十七種的技術指標跟定制趨勢線。</p>
                   </div></a>
               </div>
               <div class="col-12 wow fadeInUpSmall" data-wow-delay=".15s">
-                <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-cash-dollar"></span>
+                <!-- Link Box--><a class="link-box" href="#" onclick="return false;"><span class="icon link-box__icon linearicons-cash-dollar"></span>
                   <div class="link-box__main">
                     <h4>多種交易模式</h4>
                     <p>兩種不同的交易模式，經典高底(HIGHLOW Options)還是任意時間(Anytime Options)，一切取決於您的偏好。</p>
                   </div></a>
               </div>
               <div class="col-12 wow fadeInUpSmall" data-wow-delay=".2s">
-                <!-- Link Box --><a class="link-box" href="#"><span class="icon link-box__icon linearicons-laptop-phone"></span>
+                <!-- Link Box --><a class="link-box" href="#" onclick="return false;"><span class="icon link-box__icon linearicons-laptop-phone"></span>
                   <div class="link-box__main">
                     <h4>適用於所有設備</h4>
                     <p>交易平台建立在瀏覽器上，適用所有設備。</p>
@@ -524,7 +524,7 @@
                 <label for="save_account">記住帳號</label>
               </div>
               <div class="form-group-col text-right">
-                <a href="#">忘記密碼</a>
+                <a href="#" onclick="return false;">忘記密碼</a>
               </div>
             </div>
           </div>
