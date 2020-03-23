@@ -235,7 +235,7 @@
       </div>
     </section>
     <!-- /skill -->
-    <section class="about section-sm overlay" style="background-image: url(/dt/images/background/about-bg.jpg);">
+    <section class="about section-sm" style="background-image: url(/dt/images/background/about-bg.jpg);">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ml-auto">
@@ -486,7 +486,7 @@
   import axios from 'axios'
   import qs from 'qs'
   import { isMobile } from 'mobile-device-detect';
-  
+
   export default {
     head() {
       return {
@@ -612,14 +612,14 @@
             }
             return
           }
-            
+
           //記住我
           _this.$store.commit('setRemember', {
             me: _this.rememberMe,
             account: _this.account,
             password: _this.password,
           })
-          
+
 
           let redir_url = window.location.href.replace('https://', '')
           redir_url = window.location.href.replace('http://', '')
