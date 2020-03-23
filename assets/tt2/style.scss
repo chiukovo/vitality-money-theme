@@ -358,6 +358,7 @@
   max-width: 1100px !important;
 }
 
+
 .about-section-two {
   padding: 0 0 90px !important;
 }
@@ -440,14 +441,17 @@
 
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 667px) {
+  .banner-carousel .slide-item {
+    padding: 230px 0px 290px !important;
+  }
   .banner-carousel .content-box {
     h2 {
-      font-size: 26px !important;
+      font-size: 18px !important;
       padding-left: 0;
     }
     .text {
-      font-size: 36px !important;
+      font-size: 30px !important;
     }
   }
 }
