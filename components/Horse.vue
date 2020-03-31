@@ -44,7 +44,7 @@
                 </li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">關於我們</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">語言選擇</a></li>
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;">意見調查</a></li>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="#" onclick="return false;" data-toggle="modal" data-target=".modal-qa">意見調查</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#" data-toggle="modal" data-target="#modal">註冊</a></li>
                 <li class="rd-nav-item">
                   <button class="button button-primary" data-toggle="modal" data-target="#modal">登入</button>
@@ -497,42 +497,71 @@
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="group-sm modal-form">
-            <div class="form-group">
-              <label for="" class="form-input-label">帳號</label>
-              <input type="text" class="form-input2" placeholder="請輸入帳號" v-model='account'>
-            </div>
-            <div class="form-group">
-              <label for="" class="form-input-label">密碼</label>
-              <input type="password" class="form-input2" placeholder="請輸入密碼" v-model='password'>
-            </div>
-            <div class="form-group">
-              <div class="form-select">
-                <span class="icon linearicons-chevron-down"></span>
-                <select v-model='type'>
-                  <option value="b">金融家交易系統</option>
-                  <option value="d">好神期交易系統</option>
-                </select>
+          <form>
+            <div class="group-sm modal-form">
+              <div class="form-group">
+                <label for="" class="form-input-label">帳號</label>
+                <input type="text" class="form-input2" placeholder="請輸入帳號" v-model='account'>
+              </div>
+              <div class="form-group">
+                <label for="" class="form-input-label">密碼</label>
+                <input type="password" class="form-input2" placeholder="請輸入密碼" v-model='password'>
+              </div>
+              <div class="form-group">
+                <div class="form-select">
+                  <span class="icon linearicons-chevron-down"></span>
+                  <select v-model='type'>
+                    <option value="b">金融家交易系統</option>
+                    <option value="d">好神期交易系統</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group form-button">
+                <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
+              </div>
+              <div class="form-group group-sm-justify">
+                <div class="form-group-col">
+                  <input type="checkbox" id="save_account" v-model="rememberMe">
+                  <label for="save_account">記住帳號</label>
+                </div>
+                <div class="form-group-col text-right">
+                  <a href="#" onclick="return false;">忘記密碼</a>
+                </div>
               </div>
             </div>
-            <div class="form-group form-button">
-              <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
-            </div>
-            <div class="form-group group-sm-justify">
-              <div class="form-group-col">
-                <input type="checkbox" id="save_account" v-model="rememberMe">
-                <label for="save_account">記住帳號</label>
-              </div>
-              <div class="form-group-col text-right">
-                <a href="#" onclick="return false;">忘記密碼</a>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
-        <!-- <div class="form-group group-sm-justify">
-          <a class="button-facebook button-icon button-icon-left" href="#"><span class="icon fa fa-facebook"></span>Facebook</a>
-          <a class="button-google button-icon button-icon-left" href="#"><span class="icon fa fa-google-plus"></span>Google+</a>
-        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="modal modal-qa fade modal-login-register" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-qa-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="font-weight-bold modal-title" id="modal-qa-label">意見調查</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="modal-form">
+              <div class="form-group">
+                <label for="" class="form-input-label">姓名</label>
+                <input type="text" class="form-input2" placeholder="請輸入姓名" v-model='QA.name'>
+              </div>
+              <div class="form-group">
+                <label for="" class="form-input-label">電話</label>
+                <input type="text" class="form-input2" placeholder="請輸入電話" v-model='QA.phone'>
+              </div>
+              <div class="form-group">
+                <label for="" class="form-input-label">內容</label>
+                <textarea class="form-control" v-model='QA.problem'></textarea>
+              </div>
+              <div class="form-group form-button">
+                <button class="btn btn-primary btn-block" type='primary' native-type="submit" @click.prevent="postQA">送出</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -624,6 +653,11 @@ export default {
       type: 'b',
       dt_url: '',
       horse_url: '',
+      QA: {
+        name: '',
+        phone: '',
+        problem: '',
+      }
     }
   },
   mounted() {
@@ -642,6 +676,36 @@ export default {
     }
   },
   methods: {
+    async postQA() {
+      let _this = this
+
+      if (this.QA.problem == '') {
+        alert('內容不得為空', '注意!')
+        return
+      }
+
+      await axios.post(process.env.NUXT_ENV_API_URL + "/problemReceive", qs.stringify({
+        name: this.QA.name,
+        phone: this.QA.phone,
+        problem: this.QA.problem,
+      }))
+      .then(response => {
+        const result = response.data
+
+        if (result['Code'] <= 0) {
+          alert(result['ErrMsg'], '注意!')
+          return
+        } else {
+          alert('提交成功 謝謝您的意見!')
+
+          this.QA.name = ''
+          this.QA.phone = ''
+          this.QA.problem = ''
+
+          $('.modal-qa').modal('hide')
+        }
+      })
+    },
     async doLogin() {
       let _this = this
 

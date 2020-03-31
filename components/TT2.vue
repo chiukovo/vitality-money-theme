@@ -99,7 +99,7 @@
                         </ul>
                       </li>
                       <li><a href="#" onclick="return false;">語言切換</a></li>
-                      <li><a href="#" onclick="return false;">意見調查</a></li>
+                      <li><a href="#" onclick="return false;" data-toggle="modal" data-target=".modal-qa">意見調查</a></li>
                       <li><a :href="tt2_url">註冊</a></li>
                       <li><a class="button-login" data-toggle="modal" data-target=".modal-login">
                         <span>登入</span>
@@ -636,37 +636,71 @@
             <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
           </div>
           <div class="modal-body">
-            <div class="group-sm modal-form">
-              <div class="form-group">
-                <label for="" class="form-input-label">帳號</label>
-                <input type="text" class="form-input2" placeholder="請輸入帳號" v-model='account'>
-              </div>
-              <div class="form-group">
-                <label for="" class="form-input-label">密碼</label>
-                <input type="password" class="form-input2" placeholder="請輸入密碼" v-model='password'>
-              </div>
-              <div class="form-group">
-                <div class="form-select">
-                  <select v-model='type'>
-                    <option value="t">TT2交易系統</option>
-                    <option v-if="showOption" value="b">金融家交易系統</option>
-                    <option v-if="showOption" value="d">好神期交易系統</option>
-                  </select>
+            <form>
+              <div class="group-sm modal-form">
+                <div class="form-group">
+                  <label for="" class="form-input-label">帳號</label>
+                  <input type="text" class="form-input2" placeholder="請輸入帳號" v-model='account'>
+                </div>
+                <div class="form-group">
+                  <label for="" class="form-input-label">密碼</label>
+                  <input type="password" class="form-input2" placeholder="請輸入密碼" v-model='password'>
+                </div>
+                <div class="form-group">
+                  <div class="form-select">
+                    <select v-model='type'>
+                      <option value="t">TT2交易系統</option>
+                      <option v-if="showOption" value="b">金融家交易系統</option>
+                      <option v-if="showOption" value="d">好神期交易系統</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group form-button">
+                  <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
+                </div>
+                <div class="form-group group-justify">
+                  <div class="form-group-col">
+                    <input type="checkbox" id="save_account" v-model="rememberMe">
+                    <label for="save_account">記住帳號</label>
+                  </div>
+                  <div class="form-group-col text-right">
+                    <a href="#" onclick="return false;">忘記密碼</a>
+                  </div>
                 </div>
               </div>
-              <div class="form-group form-button">
-                <button type='primary' native-type="submit" @click.prevent="doLogin">登入</button>
-              </div>
-              <div class="form-group group-justify">
-                <div class="form-group-col">
-                  <input type="checkbox" id="save_account" v-model="rememberMe">
-                  <label for="save_account">記住帳號</label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal QA -->
+    <div class="modal modal-qa qa fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-qa-register-label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="font-weight-bold modal-title" id="modal-qa-register-label">意見調查</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="group-sm modal-form">
+                <div class="form-group">
+                  <label for="" class="form-input-label">姓名</label>
+                  <input type="text" class="form-input2" placeholder="請輸入姓名" v-model='QA.name'>
                 </div>
-                <div class="form-group-col text-right">
-                  <a href="#" onclick="return false;">忘記密碼</a>
+                <div class="form-group">
+                  <label for="" class="form-input-label">電話</label>
+                  <input type="text" class="form-input2" placeholder="請輸入電話" v-model='QA.phone'>
+                </div>
+                <div class="form-group">
+                  <label for="" class="form-input-label">內容</label>
+                  <textarea class="form-control" v-model='QA.problem'></textarea>
+                </div>
+                <div class="form-group form-button">
+                  <button type='primary' native-type="submit" @click.prevent="postQA">送出</button>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -902,7 +936,12 @@
         calendar: [],
         api_in: false,
         title: '',
-        showOption: false
+        showOption: false,
+        QA: {
+          name: '',
+          phone: '',
+          problem: '',
+        }
       }
     },
     components: {
@@ -1036,6 +1075,36 @@
             return ""
         return value > target ? "win" : value < target ? "loss" : ""
       },
+      async postQA() {
+        let _this = this
+
+        if (this.QA.problem == '') {
+          alert('內容不得為空', '注意!')
+          return
+        }
+
+        await axios.post(process.env.NUXT_ENV_API_URL + "/problemReceive", qs.stringify({
+          name: this.QA.name,
+          phone: this.QA.phone,
+          problem: this.QA.problem,
+        }))
+        .then(response => {
+          const result = response.data
+
+          if (result['Code'] <= 0) {
+            alert(result['ErrMsg'], '注意!')
+            return
+          } else {
+            alert('提交成功 謝謝您的意見!')
+
+            this.QA.name = ''
+            this.QA.phone = ''
+            this.QA.problem = ''
+
+            $('.modal-qa').modal('hide')
+          }
+        })
+      },
       async doLogin() {
         let _this = this
         if (this.account == '' || this.password == '') {
@@ -1074,10 +1143,9 @@
           }
           return
         }
-        
+
         let redir_url = window.location.href.replace('https://', '')
         redir_url = window.location.href.replace('http://', '')
-        
           if (!isMobile) {
             if (_this.type == 'b') {
               const params = 'go?UserID=' + result.UserId + '&UserToken=' + result.Token + '&ReturnURL=' + document.URL
