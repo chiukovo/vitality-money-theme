@@ -22,7 +22,7 @@
     "mobile-device-detect": "^0.3.3",
     "nuxt": "^2.11.0",
     "nuxt-vuex-localstorage": "^1.2.6",
-    "qs": "^6.9.0",
+    "qs": "^6.9.7",
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
