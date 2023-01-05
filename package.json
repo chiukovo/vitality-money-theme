@@ -20,7 +20,7 @@
     "cross-env": "^5.2.0",
     "koa": "^2.6.2",
     "mobile-device-detect": "^0.3.3",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.15.8",
     "nuxt-vuex-localstorage": "^1.2.6",
     "qs": "^6.9.0",
     "reset-css": "^5.0.1"
